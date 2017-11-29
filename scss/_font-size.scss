@@ -13,39 +13,64 @@
   @return $string;
 }
 
-// 2.0 - 4.9: em, vmin
-@for $num from 20 through 49 {
-  $i: $num / 10;
-  $str: str-replace('#{$i}', '.', '-');
-
-  .f-em-#{$str} { font-size: #{$i}em; }
-  .f-vmin-#{$str} { font-size: #{$i}vmin; }
+// 1 - 30: em, rem, vmin
+@for $i from 1 through 20 {
+  .f-#{$i}em { font-size: #{$i}em; }
+  .f-#{$i}rem { font-size: #{$i}rem; }
+  .f-#{$i}vmin { font-size: #{$i}vmin; }
 
   @each $breakpoint in $breakpoints {
     $bp: nth($breakpoint, 1);
     $letters: nth($breakpoint, 2);
 
     @media #{$bp} {
-      .f-em-#{$str}-#{$letters} { font-size: #{$i}em; }
-      .f-vmin-#{$str}-#{$letters} { font-size: #{$i}vmin; }
+      .f-#{$i}em-#{$letters} { font-size: #{$i}em; }
+      .f-#{$i}rem-#{$letters} { font-size: #{$i}rem; }
+      .f-#{$i}vmin-#{$letters} { font-size: #{$i}vmin; }
     }
   }
 }
 
-// 5 - 30: em, rem, vmin
-@for $i from 5 through 30 {
-  .f-em-#{$i} { font-size: #{$i}em; }
-  .f-rem-#{$i} { font-size: #{$i}rem; }
-  .f-vmin-#{$i} { font-size: #{$i}vmin; }
+// 2.1 - 2.9,
+// 3.1 - 3.9,
+// 4.1 - 4.9: em, rem, vmin
+@for $num from 21 through 29 {
+  $i1: $num / 10;
+  $i2: $i1 + 1;
+  $i3: $i2 + 1;
+
+  $str1: str-replace('#{$i1}', '.', '-');
+  $str2: str-replace('#{$i2}', '.', '-');
+  $str3: str-replace('#{$i3}', '.', '-');
+
+  .f-#{$str1}em { font-size: #{$i1}em; }
+  .f-#{$str1}rem { font-size: #{$i1}rem; }
+  .f-#{$str1}vmin { font-size: #{$i1}vmin; }
+
+  .f-#{$str2}em { font-size: #{$i2}em; }
+  .f-#{$str2}rem { font-size: #{$i2}rem; }
+  .f-#{$str2}vmin { font-size: #{$i2}vmin; }
+
+  .f-#{$str3}em { font-size: #{$i3}em; }
+  .f-#{$str3}rem { font-size: #{$i3}rem; }
+  .f-#{$str3}vmin { font-size: #{$i3}vmin; }
 
   @each $breakpoint in $breakpoints {
     $bp: nth($breakpoint, 1);
     $letters: nth($breakpoint, 2);
 
     @media #{$bp} {
-      .f-em-#{$i}-#{$letters} { font-size: #{$i}em; }
-      .f-rem-#{$i}-#{$letters} { font-size: #{$i}rem; }
-      .f-vmin-#{$i}-#{$letters} { font-size: #{$i}vmin; }
+      .f-#{$str1}em-#{$letters} { font-size: #{$i1}em; }
+      .f-#{$str1}rem-#{$letters} { font-size: #{$i1}rem; }
+      .f-#{$str1}vmin-#{$letters} { font-size: #{$i1}vmin; }
+
+      .f-#{$str2}em-#{$letters} { font-size: #{$i2}em; }
+      .f-#{$str2}rem-#{$letters} { font-size: #{$i2}rem; }
+      .f-#{$str2}vmin-#{$letters} { font-size: #{$i2}vmin; }
+
+      .f-#{$str3}em-#{$letters} { font-size: #{$i3}em; }
+      .f-#{$str3}rem-#{$letters} { font-size: #{$i3}rem; }
+      .f-#{$str3}vmin-#{$letters} { font-size: #{$i3}vmin; }
     }
   }
 }

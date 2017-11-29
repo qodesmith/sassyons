@@ -6,6 +6,7 @@
 .b { font-weight: bold; }
 .bolder { font-weight: bolder; }
 .lighter { font-weight: lighter; }
+.fw-normal { font-weight: normal; }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
@@ -20,20 +21,21 @@
     .b-#{$letters} { font-weight: bold; }
     .bolder-#{$letters} { font-weight: bolder; }
     .lighter-#{$letters} { font-weight: lighter; }
+    .fw-normal-#{$letters} { font-weight: normal; }
   }
 }
 
-$fontWeights: 100 200 300 400 500 600 700 800 900 normal;
-// bold bolder lighter normal;
-@each $weight in $fontWeights {
-  .fw-#{$weight} { font-weight: #{$weight}; }
+$fontWeights: 100 200 300 400 500 600 700 800 900;
+@for $i from 1 through 9 {
+  $num: $i * 100;
+  .fw#{$i} { font-weight: #{$num} }
 
   @each $breakpoint in $breakpoints {
     $bp: nth($breakpoint, 1);
     $letters: nth($breakpoint, 2);
 
     @media #{$bp} {
-      .fw-#{$weight}-#{$letters} { font-weight: #{$weight}; }
+      .fw#{$i}-#{$letters} { font-weight: #{$num} }
     }
   }
 }

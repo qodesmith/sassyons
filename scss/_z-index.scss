@@ -1,0 +1,25 @@
+.z999 { z-index: 999; }
+.z9999 { z-index: 9999; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .z999-#{$letters} { z-index: 999; }
+    .z9999-#{$letters} { z-index: 9999; }
+  }
+}
+
+@for $i from 1 through 6 {
+  .z#{$i} { z-index: #{$i}; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .z#{$i}-#{$letters} { z-index: #{$i}; }
+    }
+  }
+}

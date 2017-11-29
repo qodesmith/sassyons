@@ -1,0 +1,61 @@
+// 1 rem = 16px, as set on html & the body in `tachyons.scss`.
+$remSizes: 0 .25 .5 .75 1 1.5 2 4 8 16;
+
+.mha { margin-left: auto; margin-right: auto; }
+.mla { margin-left: auto; }
+.mra { margin-right: auto; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .mha-#{$letters} { margin-left: auto; margin-right: auto; }
+    .mla-#{$letters} { margin-left: auto; }
+    .mra-#{$letters} { margin-right: auto; }
+  }
+}
+
+@for $num from 1 through length($remSizes) {
+  $i: $num - 1;
+  $size: nth($remSizes, $num);
+
+  .pa#{$i} { padding: #{$size}rem; }
+  .pt#{$i} { padding-top: #{$size}rem; }
+  .pr#{$i} { padding-right: #{$size}rem; }
+  .pb#{$i} { padding-bottom: #{$size}rem; }
+  .pl#{$i} { padding-left: #{$size}rem; }
+  .ph#{$i} { padding-left: #{$size}rem; padding-right: #{$size}rem; }
+  .pv#{$i} { padding-top: #{$size}rem; padding-bottom: #{$size}rem; }
+
+  .ma#{$i} { margin: #{$size}rem; }
+  .mt#{$i} { margin-top: #{$size}rem; }
+  .mr#{$i} { margin-right: #{$size}rem; }
+  .mb#{$i} { margin-bottom: #{$size}rem; }
+  .ml#{$i} { margin-left: #{$size}rem; }
+  .mh#{$i} { margin-left: #{$size}rem; margin-right: #{$size}rem; }
+  .mv#{$i} { margin-top: #{$size}rem; margin-bottom: #{$size}rem; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .pa#{$i}-#{$letters} { padding: #{$size}rem; }
+      .pt#{$i}-#{$letters} { padding-top: #{$size}rem; }
+      .pr#{$i}-#{$letters} { padding-right: #{$size}rem; }
+      .pb#{$i}-#{$letters} { padding-bottom: #{$size}rem; }
+      .pl#{$i}-#{$letters} { padding-left: #{$size}rem; }
+      .ph#{$i}-#{$letters} { padding-left: #{$size}rem; padding-right: #{$size}rem; }
+      .pv#{$i}-#{$letters} { padding-top: #{$size}rem; padding-bottom: #{$size}rem; }
+
+      .ma#{$i}-#{$letters} { margin: #{$size}rem; }
+      .mt#{$i}-#{$letters} { margin-top: #{$size}rem; }
+      .mr#{$i}-#{$letters} { margin-right: #{$size}rem; }
+      .mb#{$i}-#{$letters} { margin-bottom: #{$size}rem; }
+      .ml#{$i}-#{$letters} { margin-left: #{$size}rem; }
+      .mh#{$i}-#{$letters} { margin-left: #{$size}rem; margin-right: #{$size}rem; }
+      .mv#{$i}-#{$letters} { margin-top: #{$size}rem; margin-bottom: #{$size}rem; }
+    }
+  }
+}

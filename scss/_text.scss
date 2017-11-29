@@ -1,0 +1,26 @@
+.tl { text-align: left; }
+.tr { text-align: right; }
+.tc { text-align: center; }
+.tj { text-align: justify; }
+
+.ttc { text-transform: capitalize; }
+.ttl { text-transform: lowercase; }
+.ttu { text-transform: uppercase; }
+.ttn { text-transform: none; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .tl-#{$letters} { text-align: left; }
+    .tr-#{$letters} { text-align: right; }
+    .tc-#{$letters} { text-align: center; }
+    .tj-#{$letters} { text-align: justify; }
+
+    .ttc-#{$letters} { text-transform: capitalize; }
+    .ttl-#{$letters} { text-transform: lowercase; }
+    .ttu-#{$letters} { text-transform: uppercase; }
+    .ttn-#{$letters} { text-transform: none; }
+  }
+}

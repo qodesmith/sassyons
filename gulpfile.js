@@ -11,8 +11,8 @@ gulp.task('scss', () => {
     .pipe(scss())
     .on('error', onError)
     .pipe(combineMQ({ beautify: true }))
-    // .on('error', onError)
-    // .pipe(minifyCss())
+    .on('error', onError)
+    .pipe(minifyCss())
     .on('error', onError)
     .pipe(rename('sassyons.min.css'))
     .pipe(gulp.dest('./'));
