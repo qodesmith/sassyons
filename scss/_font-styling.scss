@@ -1,0 +1,39 @@
+.i { font-style: italic; }
+.fs-normal { font-style: normal; }
+.underline { text-decoration: underline; }
+.overline { text-decoration: overline; }
+.line-through { text-decoration: line-through; }
+.b { font-weight: bold; }
+.bolder { font-weight: bolder; }
+.lighter { font-weight: lighter; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .i-#{$letters} { font-style: italic; }
+    .fs-normal-#{$letters} { font-style: normal; }
+    .underline-#{$letters} { text-decoration: underline; }
+    .overline-#{$letters} { text-decoration: overline; }
+    .line-through-#{$letters} { text-decoration: line-through; }
+    .b-#{$letters} { font-weight: bold; }
+    .bolder-#{$letters} { font-weight: bolder; }
+    .lighter-#{$letters} { font-weight: lighter; }
+  }
+}
+
+$fontWeights: 100 200 300 400 500 600 700 800 900 normal;
+// bold bolder lighter normal;
+@each $weight in $fontWeights {
+  .fw-#{$weight} { font-weight: #{$weight}; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .fw-#{$weight}-#{$letters} { font-weight: #{$weight}; }
+    }
+  }
+}

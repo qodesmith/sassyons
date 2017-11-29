@@ -1,0 +1,14 @@
+$positions: absolute relative fixed static;
+
+@each $position in $positions {
+  .#{$position} { position: #{$position}; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .#{$position}-#{$letters} { display: #{$position}; }
+    }
+  }
+}

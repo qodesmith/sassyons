@@ -1,0 +1,34 @@
+.w-33  { width: 33% };
+.w-34  { width: 34% };
+.vw-33 { width: 33vw };
+.vw-34 { width: 34vw };
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .w-33-#{$letters}  { width: 33% };
+    .w-34-#{$letters}  { width: 34% };
+    .vw-33-#{$letters} { width: 33vw };
+    .vw-34-#{$letters} { width: 34vw };
+  }
+}
+
+@for $i from 0 through 20 {
+  $pct: percentage($i / 20);
+  $width: $i * 5;
+
+  .w-#{$width} { width: $pct; }
+  .vw-#{$width} { width: #{$width}vw; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .w-#{$width}-#{$letters} { width: $pct; }
+      .vw-#{$width}-#{$letters} { width: #{$width}vw; }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+$displays: (
+  dn none,
+  db block,
+  dib inline-block,
+  df flex,
+  dif inline-flex,
+  dt table,
+  dit inline-table
+);
+
+@each $display in $displays {
+  // .df { display: flex; }
+  .#{nth($display, 1)} { display: #{nth($display, 2)}; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} { // @media screen and (max-width: 767px) {
+      // .df-dl { display: flex; }
+      .#{nth($display, 1)}-#{$letters} { display: #{nth($display, 2)}; }
+    }
+  }
+}

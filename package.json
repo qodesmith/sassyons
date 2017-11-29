@@ -1,0 +1,27 @@
+{
+  "name": "sassyons",
+  "version": "1.0.0",
+  "description": "Inspired by Tachyons",
+  "main": "sassyons.min.css",
+  "style": "./scss/tachyons.scss",
+  "_why_the_style_field": "https://goo.gl/i6fb1I, https://goo.gl/jXccT3 - postcss-import (and others) use the `style` field to resolve CSS packages.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sassyons",
+    "tachyons",
+    "css",
+    "sass",
+    "scss"
+  ],
+  "author": "Qodesmith",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}

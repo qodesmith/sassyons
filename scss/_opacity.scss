@@ -1,0 +1,15 @@
+@for $i from 0 through 20 {
+  $opacity: $i / 20;
+  $num: $i * 5;
+
+  .o-#{$num} { opacity: $opacity; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .o-#{$num}-#{$letters} { opacity: $opacity; }
+    }
+  }
+}

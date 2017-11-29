@@ -1,0 +1,37 @@
+$colorList: (
+  black bg-black,
+  white bg-white
+);
+
+@each $color in $colorList {
+  // .black { color: black; }
+  .#{nth($color, 1)} { color: #{nth($color, 1)}; }
+
+  @for $i from 1 through 19 {
+    $opacity: $i / 20;
+    $num: $i * 5;
+
+    // .black-5 { color: rgba(0,0,0,0.05); }
+    // .white-5 { color: rgba(255,255,255,0.05); }
+    .#{nth($color, 1)}-#{$num} { color: rgba(nth($color, 1), $opacity); }
+
+    // .bg-black-5 { color: rgba(0,0,0,0.05); }
+    // .bg-white-5 { color: rgba(255,255,255,0.05); }
+    .#{nth($color, 2)}-#{$num} { background: rgba(nth($color, 1), $opacity); }
+
+    @each $breakpoint in $breakpoints {
+      $bp: nth($breakpoint, 1);
+      $letters: nth($breakpoint, 2);
+
+      @media #{$bp} { // @media screen and (max-width: 767px) {
+        // .black-5-m { color: rgba(0,0,0,0.05); }
+        // .white-5-m { color: rgba(255,255,255,0.05); }
+        .#{nth($color, 1)}-#{$num}-#{$letters} { color: rgba(nth($color, 1), $opacity); }
+
+        // .bg-black-5-m { background: rgba(0,0,0,0.05); }
+        // .bg-white-5-m { background: rgba(255,255,255,0.05); }
+        .#{nth($color, 2)}-#{$num}-#{$letters} { background: rgba(nth($color, 1), $opacity); }
+      }
+    }
+  }
+}

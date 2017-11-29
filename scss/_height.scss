@@ -1,0 +1,34 @@
+.h-33  { height: 33% };
+.h-34  { height: 34% };
+.vh-33 { height: 33vh };
+.vh-34 { height: 34vh };
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .h-33-#{$letters}  { height: 33% };
+    .h-34-#{$letters}  { height: 34% };
+    .vh-33-#{$letters} { height: 33vh };
+    .vh-34-#{$letters} { height: 34vh };
+  }
+}
+
+@for $i from 0 through 20 {
+  $pct: percentage($i / 20);
+  $height: $i * 5;
+
+  .h-#{$height} { height: $pct; }
+  .vh-#{$height} { height: #{$height}vh; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .h-#{$height}-#{$letters} { height: $pct; }
+      .vh-#{$height}-#{$letters} { height: #{$height}vh; }
+    }
+  }
+}
