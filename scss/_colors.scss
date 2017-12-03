@@ -1,11 +1,12 @@
-$colorList: (
-  black bg-black,
-  white bg-white
-);
+$colorList: black white;
 
 @each $color in $colorList {
   // .black { color: black; }
-  .#{nth($color, 1)} { color: #{nth($color, 1)}; }
+  // .bg-black { background-color: black; }
+  // .border-black { border-color: black; }
+  .#{$color} { color: #{$color}; }
+  .bg-#{$color} { background-color: #{$color}; }
+  .border-#{$color} { border-color: #{$color}; }
 
   @for $i from 1 through 19 {
     $opacity: $i / 20;
@@ -13,11 +14,15 @@ $colorList: (
 
     // .black-5 { color: rgba(0,0,0,0.05); }
     // .white-5 { color: rgba(255,255,255,0.05); }
-    .#{nth($color, 1)}-#{$num} { color: rgba(nth($color, 1), $opacity); }
+    .#{$color}-#{$num} { color: rgba($color, $opacity); }
 
-    // .bg-black-5 { color: rgba(0,0,0,0.05); }
-    // .bg-white-5 { color: rgba(255,255,255,0.05); }
-    .#{nth($color, 2)}-#{$num} { background: rgba(nth($color, 1), $opacity); }
+    // .bg-black-5 { background-color: rgba(0,0,0,0.05); }
+    // .bg-white-5 { background-color: rgba(255,255,255,0.05); }
+    .bg-#{$color}-#{$num} { background-color: rgba($color, $opacity); }
+
+    // .border-black-5 { border-color: rgba(0,0,0,.05); }
+    // .border-white-5 { border-color: rgba(255,255,255,.05); }
+    .border-#{$color}-#{$num} { border-color: rgba($color, $opacity); }
 
     @each $breakpoint in $breakpoints {
       $bp: nth($breakpoint, 1);
@@ -26,11 +31,15 @@ $colorList: (
       @media #{$bp} { // @media screen and (max-width: 767px) {
         // .black-5-m { color: rgba(0,0,0,0.05); }
         // .white-5-m { color: rgba(255,255,255,0.05); }
-        .#{nth($color, 1)}-#{$num}-#{$letters} { color: rgba(nth($color, 1), $opacity); }
+        .#{$color}-#{$num}-#{$letters} { color: rgba($color, $opacity); }
 
         // .bg-black-5-m { background: rgba(0,0,0,0.05); }
         // .bg-white-5-m { background: rgba(255,255,255,0.05); }
-        .#{nth($color, 2)}-#{$num}-#{$letters} { background: rgba(nth($color, 1), $opacity); }
+        .bg-#{$color}-#{$num}-#{$letters} { background-color: rgba($color, $opacity); }
+
+        // .border-black-5-m { border-color: rgba(0,0,0,0.05); }
+        // .border-white-5-m { border-color: rgba(0,0,0,0.05); }
+        .border-#{$color}-#{$num}-#{$letters} { border-color: rgba($color, $opacity); }
       }
     }
   }
