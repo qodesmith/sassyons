@@ -2,9 +2,17 @@
 // Plus, I guess I haven't embraced the whole mobile-first thing in the first place.
 // Also, I'm not a fan of Tachyons' use of `em` for everything.
 $mobile: 'screen and (max-width: 767px)' !default;
+$mobile-l: #{$mobile} 'and (orientation: landscape)' !default;
+$mobile-p: #{$mobile} 'and (orientation: portrait)' !default;
 $tablet: 'screen and (min-width: 768px) and (max-width: 1024px)' !default;
+$tablet-l: 'screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)' !default;
+$tablet-p: 'screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait)' !default;
 $desktop: 'screen and (min-width: 1025px)' !default;
+$desktop-l: 'screen and (min-width: 1025px) and (orientation: landscape)' !default;
+$desktop-p: 'screen and (min-width: 1025px) and (orientation: portrait)' !default;
 $desktop-large: 'screen and (min-width: 1280px)' !default;
+$desktop-large-l: 'screen and (min-width: 1280px) and (orientation: landscape)' !default;
+$desktop-large-p: 'screen and (min-width: 1280px) and (orientation: portrait)' !default;
 
 $breakpoints: (
   $desktop-large dl,
