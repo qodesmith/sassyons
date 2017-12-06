@@ -1,5 +1,15 @@
 $colorList: black white;
 
+.bg-cc { background: currentColor; }
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .bg-cc-#{$bp} { background: currentColor; }
+  }
+}
+
 @each $color in $colorList {
   // .black { color: black; }
   // .bg-black { background-color: black; }
