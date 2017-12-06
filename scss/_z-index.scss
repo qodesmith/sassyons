@@ -1,5 +1,6 @@
 .z999 { z-index: 999; }
 .z9999 { z-index: 9999; }
+.z-1 { z-index: -1; }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
@@ -8,10 +9,11 @@
   @media #{$bp} {
     .z999-#{$letters} { z-index: 999; }
     .z9999-#{$letters} { z-index: 9999; }
+    .z-1-#{$letters} { z-index: -1; }
   }
 }
 
-@for $i from 1 through 6 {
+@for $i from 0 through 6 {
   .z#{$i} { z-index: #{$i}; }
 
   @each $breakpoint in $breakpoints {
