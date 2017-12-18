@@ -1,0 +1,10 @@
+.border-1px { border: 1px solid; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .border-1px-#{$bp} { border: 1px solid; }
+  }
+}
