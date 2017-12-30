@@ -5,6 +5,6 @@
   $letters: nth($breakpoint, 2);
 
   @media #{$bp} {
-    .border-1px-#{$bp} { border: 1px solid; }
+    .border-1px-#{$letters} { border: 1px solid; }
   }
 }

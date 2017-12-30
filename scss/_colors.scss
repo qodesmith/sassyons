@@ -6,7 +6,7 @@ $colorList: black white;
   $letters: nth($breakpoint, 2);
 
   @media #{$bp} {
-    .bg-cc-#{$bp} { background: currentColor; }
+    .bg-cc-#{$letters} { background: currentColor; }
   }
 }
 

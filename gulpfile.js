@@ -18,8 +18,18 @@ gulp.task('scss', () => {
     .pipe(gulp.dest('./'));
 });
 
-gulp.task('default', ['scss'], () => {
-  gulp.watch('./scss/**/*.scss', ['scss']);
+gulp.task('scss:full', () => {
+  return gulp.src('./scss/sassyons.scss')
+    .pipe(scss())
+    .on('error', onError)
+    .pipe(combineMQ({ beautify: true }))
+    .on('error', onError)
+    .pipe(rename('sassyons.css'))
+    .pipe(gulp.dest('./'));
+});
+
+gulp.task('default', ['scss', 'scss:full'], () => {
+  gulp.watch('./scss/**/*.scss', ['scss', 'scss:full']);
 });
 
 // http://goo.gl/SboRZI
