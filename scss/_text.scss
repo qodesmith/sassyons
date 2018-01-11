@@ -8,6 +8,9 @@
 .ttu { text-transform: uppercase; }
 .ttn { text-transform: none; }
 
+.break-word { word-break: break-word; }
+.break-all { word-break: break-all; }
+
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
   $letters: nth($breakpoint, 2);
@@ -22,5 +25,8 @@
     .ttl-#{$letters} { text-transform: lowercase; }
     .ttu-#{$letters} { text-transform: uppercase; }
     .ttn-#{$letters} { text-transform: none; }
+
+    .break-word-#{$letters} { word-break: break-word; }
+    .break-all-#{$letters} { word-break: break-all; }
   }
 }

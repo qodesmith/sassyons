@@ -2869,6 +2869,14 @@ html,body {
   text-transform: none;
 }
 
+.break-word {
+  word-break: break-word;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
 .w-33 {
   width: 33%;
 }
@@ -6257,6 +6265,14 @@ html,body {
 
   .ttn-t {
     text-transform: none;
+  }
+
+  .break-word-t {
+    word-break: break-word;
+  }
+
+  .break-all-t {
+    word-break: break-all;
   }
 
   .w-33-t {
@@ -9650,6 +9666,14 @@ html,body {
     text-transform: none;
   }
 
+  .break-word-d {
+    word-break: break-word;
+  }
+
+  .break-all-d {
+    word-break: break-all;
+  }
+
   .w-33-d {
     width: 33%;
   }
@@ -13041,6 +13065,14 @@ html,body {
     text-transform: none;
   }
 
+  .break-word-dl {
+    word-break: break-word;
+  }
+
+  .break-all-dl {
+    word-break: break-all;
+  }
+
   .w-33-dl {
     width: 33%;
   }
@@ -16430,6 +16462,14 @@ html,body {
 
   .ttn-m {
     text-transform: none;
+  }
+
+  .break-word-m {
+    word-break: break-word;
+  }
+
+  .break-all-m {
+    word-break: break-all;
   }
 
   .w-33-m {
