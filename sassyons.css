@@ -2877,6 +2877,10 @@ html,body {
   word-break: break-all;
 }
 
+.hyphens {
+  hyphens: auto;
+}
+
 .w-33 {
   width: 33%;
 }
@@ -6273,6 +6277,10 @@ html,body {
 
   .break-all-t {
     word-break: break-all;
+  }
+
+  .hyphens-t {
+    hyphens: auto;
   }
 
   .w-33-t {
@@ -9674,6 +9682,10 @@ html,body {
     word-break: break-all;
   }
 
+  .hyphens-d {
+    hyphens: auto;
+  }
+
   .w-33-d {
     width: 33%;
   }
@@ -13073,6 +13085,10 @@ html,body {
     word-break: break-all;
   }
 
+  .hyphens-dl {
+    hyphens: auto;
+  }
+
   .w-33-dl {
     width: 33%;
   }
@@ -16470,6 +16486,10 @@ html,body {
 
   .break-all-m {
     word-break: break-all;
+  }
+
+  .hyphens-m {
+    hyphens: auto;
   }
 
   .w-33-m {
