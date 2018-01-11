@@ -20,7 +20,11 @@
   $height: $i * 5;
 
   .h-#{$height} { height: $pct; }
+  .h-min-#{$height} { min-height: $pct; }
+  .h-max-#{$height} { max-height: $pct; }
   .vh-#{$height} { height: #{$height}vh; }
+  .vh-min-#{$height} { min-height: #{$height}vh; }
+  .vh-max-#{$height} { max-height: #{$height}vh; }
 
   @each $breakpoint in $breakpoints {
     $bp: nth($breakpoint, 1);
@@ -28,7 +32,11 @@
 
     @media #{$bp} {
       .h-#{$height}-#{$letters} { height: $pct; }
+      .h-min-#{$height}-#{$letters} { min-height: $pct; }
+      .h-max-#{$height}-#{$letters} { max-height: $pct; }
       .vh-#{$height}-#{$letters} { height: #{$height}vh; }
+      .vh-min-#{$height}-#{$letters} { min-height: #{$height}vh; }
+      .vh-max-#{$height}-#{$letters} { max-height: #{$height}vh; }
     }
   }
 }

@@ -20,7 +20,11 @@
   $width: $i * 5;
 
   .w-#{$width} { width: $pct; }
+  .w-min-#{$width} { min-width: $pct; }
+  .w-max-#{$width} { max-width: $pct; }
   .vw-#{$width} { width: #{$width}vw; }
+  .vw-min-#{$width} { min-width: #{$width}vw; }
+  .vw-max-#{$width} { max-width: #{$width}vw; }
 
   @each $breakpoint in $breakpoints {
     $bp: nth($breakpoint, 1);
@@ -28,7 +32,11 @@
 
     @media #{$bp} {
       .w-#{$width}-#{$letters} { width: $pct; }
+      .w-min-#{$width}-#{$letters} { min-width: $pct; }
+      .w-max-#{$width}-#{$letters} { max-width: $pct; }
       .vw-#{$width}-#{$letters} { width: #{$width}vw; }
+      .vw-min-#{$width}-#{$letters} { min-width: #{$width}vw; }
+      .vw-max-#{$width}-#{$letters} { max-width: #{$width}vw; }
     }
   }
 }
