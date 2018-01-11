@@ -28,6 +28,8 @@ gulp.task('scss:full', () => {
     .pipe(gulp.dest('./'));
 });
 
+gulp.task('build', ['scss', 'scss:full'], done => done());
+
 gulp.task('default', ['scss', 'scss:full'], () => {
   gulp.watch('./scss/**/*.scss', ['scss', 'scss:full']);
 });
