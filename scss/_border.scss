@@ -1,4 +1,8 @@
 .border-1px { border: 1px solid; }
+.border-1px-top { border-top: 1px solid; }
+.border-1px-right { border-right: 1px solid; }
+.border-1px-bottom { border-bottom: 1px solid; }
+.border-1px-left { border-left: 1px solid; }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
@@ -6,5 +10,9 @@
 
   @media #{$bp} {
     .border-1px-#{$letters} { border: 1px solid; }
+    .border-1px-top-#{$letters} { border-top: 1px solid; }
+    .border-1px-right-#{$letters} { border-right: 1px solid; }
+    .border-1px-bottom-#{$letters} { border-bottom: 1px solid; }
+    .border-1px-left-#{$letters} { border-left: 1px solid; }
   }
 }

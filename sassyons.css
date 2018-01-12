@@ -12,6 +12,22 @@ html,body {
   border: 1px solid;
 }
 
+.border-1px-top {
+  border-top: 1px solid;
+}
+
+.border-1px-right {
+  border-right: 1px solid;
+}
+
+.border-1px-bottom {
+  border-bottom: 1px solid;
+}
+
+.border-1px-left {
+  border-left: 1px solid;
+}
+
 .bg-cc {
   background: currentColor;
 }
@@ -3554,6 +3570,22 @@ html,body {
     border: 1px solid;
   }
 
+  .border-1px-top-t {
+    border-top: 1px solid;
+  }
+
+  .border-1px-right-t {
+    border-right: 1px solid;
+  }
+
+  .border-1px-bottom-t {
+    border-bottom: 1px solid;
+  }
+
+  .border-1px-left-t {
+    border-left: 1px solid;
+  }
+
   .bg-cc-t {
     background: currentColor;
   }
@@ -7063,6 +7095,22 @@ html,body {
 @media screen and (min-width: 1025px) {
   .border-1px-d {
     border: 1px solid;
+  }
+
+  .border-1px-top-d {
+    border-top: 1px solid;
+  }
+
+  .border-1px-right-d {
+    border-right: 1px solid;
+  }
+
+  .border-1px-bottom-d {
+    border-bottom: 1px solid;
+  }
+
+  .border-1px-left-d {
+    border-left: 1px solid;
   }
 
   .bg-cc-d {
@@ -10576,6 +10624,22 @@ html,body {
     border: 1px solid;
   }
 
+  .border-1px-top-dl {
+    border-top: 1px solid;
+  }
+
+  .border-1px-right-dl {
+    border-right: 1px solid;
+  }
+
+  .border-1px-bottom-dl {
+    border-bottom: 1px solid;
+  }
+
+  .border-1px-left-dl {
+    border-left: 1px solid;
+  }
+
   .bg-cc-dl {
     background: currentColor;
   }
@@ -14085,6 +14149,22 @@ html,body {
 @media screen and (max-width: 767px) {
   .border-1px-m {
     border: 1px solid;
+  }
+
+  .border-1px-top-m {
+    border-top: 1px solid;
+  }
+
+  .border-1px-right-m {
+    border-right: 1px solid;
+  }
+
+  .border-1px-bottom-m {
+    border-bottom: 1px solid;
+  }
+
+  .border-1px-left-m {
+    border-left: 1px solid;
   }
 
   .bg-cc-m {
