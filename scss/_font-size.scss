@@ -31,17 +31,20 @@
   }
 }
 
+// 1.1 - 1.9,
 // 2.1 - 2.9,
 // 3.1 - 3.9,
 // 4.1 - 4.9: em, rem, vmin
-@for $num from 21 through 29 {
+@for $num from 11 through 19 {
   $i1: $num / 10;
   $i2: $i1 + 1;
   $i3: $i2 + 1;
+  $i4: $i3 + 1;
 
   $str1: str-replace('#{$i1}', '.', '-');
   $str2: str-replace('#{$i2}', '.', '-');
   $str3: str-replace('#{$i3}', '.', '-');
+  $str4: str-replace('#{$i4}', '.', '-');
 
   .f-#{$str1}em { font-size: #{$i1}em; }
   .f-#{$str1}rem { font-size: #{$i1}rem; }
@@ -54,6 +57,10 @@
   .f-#{$str3}em { font-size: #{$i3}em; }
   .f-#{$str3}rem { font-size: #{$i3}rem; }
   .f-#{$str3}vmin { font-size: #{$i3}vmin; }
+
+  .f-#{$str4}em { font-size: #{$i4}em; }
+  .f-#{$str4}rem { font-size: #{$i4}rem; }
+  .f-#{$str4}vmin { font-size: #{$i4}vmin; }
 
   @each $breakpoint in $breakpoints {
     $bp: nth($breakpoint, 1);
@@ -71,6 +78,10 @@
       .f-#{$str3}em-#{$letters} { font-size: #{$i3}em; }
       .f-#{$str3}rem-#{$letters} { font-size: #{$i3}rem; }
       .f-#{$str3}vmin-#{$letters} { font-size: #{$i3}vmin; }
+
+      .f-#{$str4}em-#{$letters} { font-size: #{$i4}em; }
+      .f-#{$str4}rem-#{$letters} { font-size: #{$i4}rem; }
+      .f-#{$str4}vmin-#{$letters} { font-size: #{$i4}vmin; }
     }
   }
 }
