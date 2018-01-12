@@ -7,7 +7,7 @@
   "_why_the_style_field": "https://goo.gl/i6fb1I, https://goo.gl/jXccT3 - postcss-import (and others) use the `style` field to resolve CSS packages.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp scss"
+    "build": "gulp build"
   },
   "keywords": [
     "sassyons",
