@@ -1,18 +1,30 @@
-.border-1px { border: 1px solid; }
-.border-1px-top { border-top: 1px solid; }
-.border-1px-right { border-right: 1px solid; }
-.border-1px-bottom { border-bottom: 1px solid; }
-.border-1px-left { border-left: 1px solid; }
+.ba-1px { border: 1px solid; }
+.bt-1px { border-top: 1px solid; }
+.br-1px { border-right: 1px solid; }
+.bb-1px { border-bottom: 1px solid; }
+.bl-1px { border-left: 1px solid; }
+
+.ba-0 { border: none; }
+.bt-0 { border-top: none; }
+.br-0 { border-right: none; }
+.bb-0 { border-bottom: none; }
+.bl-0 { border-left: none; }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
   $letters: nth($breakpoint, 2);
 
   @media #{$bp} {
-    .border-1px-#{$letters} { border: 1px solid; }
-    .border-1px-top-#{$letters} { border-top: 1px solid; }
-    .border-1px-right-#{$letters} { border-right: 1px solid; }
-    .border-1px-bottom-#{$letters} { border-bottom: 1px solid; }
-    .border-1px-left-#{$letters} { border-left: 1px solid; }
+    .ba-1px-#{$letters} { border: 1px solid; }
+    .bt-1px-#{$letters} { border-top: 1px solid; }
+    .br-1px-#{$letters} { border-right: 1px solid; }
+    .bb-1px-#{$letters} { border-bottom: 1px solid; }
+    .bl-1px-#{$letters} { border-left: 1px solid; }
+
+    .ba-0-#{$letters} { border: none; }
+    .bt-0-#{$letters} { border-top: none; }
+    .br-0-#{$letters} { border-right: none; }
+    .bb-0-#{$letters} { border-bottom: none; }
+    .bl-0-#{$letters} { border-left: none; }
   }
 }
