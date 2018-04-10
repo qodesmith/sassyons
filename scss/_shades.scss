@@ -1,0 +1,56 @@
+$shades: black white;
+
+.bg-cc { background: currentColor; }
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .bg-cc-#{$letters} { background: currentColor; }
+  }
+}
+
+@each $shade in $shades {
+  // .black { color: black; }
+  // .bg-black { background-color: black; }
+  // .border-black { border-color: black; }
+  .#{$shade} { color: #{$shade}; }
+  .bg-#{$shade} { background-color: #{$shade}; }
+  .border-#{$shade} { border-color: #{$shade}; }
+
+  @for $i from 1 through 19 {
+    $opacity: $i / 20;
+    $num: $i * 5;
+
+    // .black-5 { color: rgba(0,0,0,0.05); }
+    // .white-5 { color: rgba(255,255,255,0.05); }
+    .#{$shade}-#{$num} { color: rgba($shade, $opacity); }
+
+    // .bg-black-5 { background-color: rgba(0,0,0,0.05); }
+    // .bg-white-5 { background-color: rgba(255,255,255,0.05); }
+    .bg-#{$shade}-#{$num} { background-color: rgba($shade, $opacity); }
+
+    // .border-black-5 { border-color: rgba(0,0,0,.05); }
+    // .border-white-5 { border-color: rgba(255,255,255,.05); }
+    .border-#{$shade}-#{$num} { border-color: rgba($shade, $opacity); }
+
+    @each $breakpoint in $breakpoints {
+      $bp: nth($breakpoint, 1);
+      $letters: nth($breakpoint, 2);
+
+      @media #{$bp} { // @media screen and (max-width: 767px) {
+        // .black-5-m { color: rgba(0,0,0,0.05); }
+        // .white-5-m { color: rgba(255,255,255,0.05); }
+        .#{$shade}-#{$num}-#{$letters} { color: rgba($shade, $opacity); }
+
+        // .bg-black-5-m { background: rgba(0,0,0,0.05); }
+        // .bg-white-5-m { background: rgba(255,255,255,0.05); }
+        .bg-#{$shade}-#{$num}-#{$letters} { background-color: rgba($shade, $opacity); }
+
+        // .border-black-5-m { border-color: rgba(0,0,0,0.05); }
+        // .border-white-5-m { border-color: rgba(0,0,0,0.05); }
+        .border-#{$shade}-#{$num}-#{$letters} { border-color: rgba($shade, $opacity); }
+      }
+    }
+  }
+}
