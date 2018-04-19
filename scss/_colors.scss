@@ -1,6 +1,7 @@
 // All these color names taken from https://htmlcolorcodes.com/color-names/
 
 $colors: (
+  // Red
   indianred #cd5c5c,
   lightcoral #f08080,
   salmon #fa8072,
@@ -10,18 +11,24 @@ $colors: (
   red #ff0000,
   firebrick #b22222,
   darkred #8b0000,
+
+  // Pink
   pink #ffc0cb,
   lightpink #ffb6c1,
   hotpink #ff69b4,
   deeppink #ff1493,
   mediumvioletred #c71585,
   palevioletred #db7093,
+
+  // Orange
   lightsalmon #ffa07a,
   coral #ff7f50,
   tomato #ff6347,
   orangered #ff4500,
   darkorange #ff8c00,
   orange #ffa500,
+
+  // Yellow
   gold #ffd700,
   yellow #ffff00,
   lightyellow #ffffe0,
@@ -33,6 +40,8 @@ $colors: (
   palegoldenrod #eee8aa,
   khaki #f0e68c,
   darkkhaki #bdb76b,
+
+  // Purple
   lavender #e6e6fa,
   thistle #d8bfd8,
   plum #dda0dd,
@@ -52,6 +61,8 @@ $colors: (
   slateblue #6a5acd,
   darkslateblue #483d8b,
   mediumslateblue #7b68ee,
+
+  // Green
   greenyellow #adff2f,
   chartreuse #7fff00,
   lawngreen #7cfc00,
@@ -75,6 +86,8 @@ $colors: (
   lightseagreen #20b2aa,
   darkcyan #008b8b,
   teal #008080,
+
+  // Blue
   aqua #00ffff,
   cyan #00ffff,
   lightcyan #e0ffff,
@@ -100,6 +113,8 @@ $colors: (
   darkblue #00008b,
   navy #000080,
   midnightblue #191970,
+
+  // Brown
   cornsilk #fff8dc,
   blanchedalmond #ffebcd,
   bisque #ffe4c4,
@@ -117,6 +132,8 @@ $colors: (
   sienna #a0522d,
   brown #a52a2a,
   maroon #800000,
+
+  // White
   white #ffffff,
   snow #fffafa,
   honeydew #f0fff0,
@@ -134,6 +151,8 @@ $colors: (
   linen #faf0e6,
   lavenderblush #fff0f5,
   mistyrose #ffe4e1,
+
+  // Gray
   gainsboro #dcdcdc,
   lightgray #d3d3d3,
   silver #c0c0c0,
