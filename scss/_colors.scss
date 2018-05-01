@@ -165,6 +165,23 @@ $colors: (
   black #000000
 );
 
+.bg-initial { background-color: initial; }
+.bg-inherit { background-color: inherit; }
+.color-initial { color: initial; }
+.color-inherit { color: inherit; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .bg-initial-#{$letters} { background-color: initial; }
+    .bg-inherit-#{$letters} { background-color: inherit; }
+    .color-initial-#{$letters} { color: initial; }
+    .color-inherit-#{$letters} { color: inherit; }
+  }
+}
+
 @each $color in $colors {
   .#{nth($color, 1)} { color: #{nth($color, 2)}; }
   .bg-#{nth($color, 1)} { background-color: #{nth($color, 2)}; }
@@ -173,7 +190,7 @@ $colors: (
     $bp: nth($breakpoint, 1);
     $letters: nth($breakpoint, 2);
 
-    @media #{$bp} { // @media screen and (max-width: 767px) {
+    @media #{$bp} {
       .#{nth($color, 1)}-#{$letters} { color: #{nth($color, 2)}; }
       .bg-#{nth($color, 1)}-#{$letters} { background-color: #{nth($color, 2)}; }
     }
