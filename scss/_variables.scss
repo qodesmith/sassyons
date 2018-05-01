@@ -20,3 +20,6 @@ $breakpoints: (
   $tablet t,
   $mobile m
 );
+
+// 1 rem = 16px, as set on html & the body in `sassyons.scss`.
+$remSizes: 0 .25 .5 .75 1 1.5 2 4 8 16;
