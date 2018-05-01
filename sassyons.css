@@ -48,6 +48,62 @@ html,body {
   border-left: none;
 }
 
+.radius-0 {
+  border-radius: 0rem;
+}
+
+.radius-0-25 {
+  border-radius: 0.25rem;
+}
+
+.radius-0-5 {
+  border-radius: 0.5rem;
+}
+
+.radius-0-75 {
+  border-radius: 0.75rem;
+}
+
+.radius-1 {
+  border-radius: 1rem;
+}
+
+.radius-1-5 {
+  border-radius: 1.5rem;
+}
+
+.radius-2 {
+  border-radius: 2rem;
+}
+
+.radius-4 {
+  border-radius: 4rem;
+}
+
+.radius-8 {
+  border-radius: 8rem;
+}
+
+.radius-16 {
+  border-radius: 16rem;
+}
+
+.bg-initial {
+  background-color: initial;
+}
+
+.bg-inherit {
+  background-color: inherit;
+}
+
+.color-initial {
+  color: initial;
+}
+
+.color-inherit {
+  color: inherit;
+}
+
 .indianred {
   color: #cd5c5c;
 }
@@ -2752,12 +2808,20 @@ html,body {
   line-height: 2;
 }
 
+.lh-3 {
+  line-height: 3;
+}
+
 .lh-0-1 {
   line-height: 0.1;
 }
 
 .lh-1-1 {
   line-height: 1.1;
+}
+
+.lh-2-1 {
+  line-height: 2.1;
 }
 
 .lh-0-2 {
@@ -2768,12 +2832,20 @@ html,body {
   line-height: 1.2;
 }
 
+.lh-2-2 {
+  line-height: 2.2;
+}
+
 .lh-0-3 {
   line-height: 0.3;
 }
 
 .lh-1-3 {
   line-height: 1.3;
+}
+
+.lh-2-3 {
+  line-height: 2.3;
 }
 
 .lh-0-4 {
@@ -2784,12 +2856,20 @@ html,body {
   line-height: 1.4;
 }
 
+.lh-2-4 {
+  line-height: 2.4;
+}
+
 .lh-0-5 {
   line-height: 0.5;
 }
 
 .lh-1-5 {
   line-height: 1.5;
+}
+
+.lh-2-5 {
+  line-height: 2.5;
 }
 
 .lh-0-6 {
@@ -2800,12 +2880,20 @@ html,body {
   line-height: 1.6;
 }
 
+.lh-2-6 {
+  line-height: 2.6;
+}
+
 .lh-0-7 {
   line-height: 0.7;
 }
 
 .lh-1-7 {
   line-height: 1.7;
+}
+
+.lh-2-7 {
+  line-height: 2.7;
 }
 
 .lh-0-8 {
@@ -2816,12 +2904,20 @@ html,body {
   line-height: 1.8;
 }
 
+.lh-2-8 {
+  line-height: 2.8;
+}
+
 .lh-0-9 {
   line-height: 0.9;
 }
 
 .lh-1-9 {
   line-height: 1.9;
+}
+
+.lh-2-9 {
+  line-height: 2.9;
 }
 
 .right-0 {
@@ -4730,6 +4826,46 @@ html,body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .radius-0-t {
+    border-radius: 0rem;
+  }
+
+  .radius-0-25-t {
+    border-radius: 0.25rem;
+  }
+
+  .radius-0-5-t {
+    border-radius: 0.5rem;
+  }
+
+  .radius-0-75-t {
+    border-radius: 0.75rem;
+  }
+
+  .radius-1-t {
+    border-radius: 1rem;
+  }
+
+  .radius-1-5-t {
+    border-radius: 1.5rem;
+  }
+
+  .radius-2-t {
+    border-radius: 2rem;
+  }
+
+  .radius-4-t {
+    border-radius: 4rem;
+  }
+
+  .radius-8-t {
+    border-radius: 8rem;
+  }
+
+  .radius-16-t {
+    border-radius: 16rem;
+  }
+
   .ba-1px-t {
     border: 1px solid;
   }
@@ -4768,6 +4904,22 @@ html,body {
 
   .bl-0-t {
     border-left: none;
+  }
+
+  .bg-initial-t {
+    background-color: initial;
+  }
+
+  .bg-inherit-t {
+    background-color: inherit;
+  }
+
+  .color-initial-t {
+    color: initial;
+  }
+
+  .color-inherit-t {
+    color: inherit;
   }
 
   .indianred-t {
@@ -7482,12 +7634,20 @@ html,body {
     line-height: 1.1;
   }
 
+  .lh-2-1-t {
+    line-height: 2.1;
+  }
+
   .lh-0-2-t {
     line-height: 0.2;
   }
 
   .lh-1-2-t {
     line-height: 1.2;
+  }
+
+  .lh-2-2-t {
+    line-height: 2.2;
   }
 
   .lh-0-3-t {
@@ -7498,12 +7658,20 @@ html,body {
     line-height: 1.3;
   }
 
+  .lh-2-3-t {
+    line-height: 2.3;
+  }
+
   .lh-0-4-t {
     line-height: 0.4;
   }
 
   .lh-1-4-t {
     line-height: 1.4;
+  }
+
+  .lh-2-4-t {
+    line-height: 2.4;
   }
 
   .lh-0-5-t {
@@ -7514,12 +7682,20 @@ html,body {
     line-height: 1.5;
   }
 
+  .lh-2-5-t {
+    line-height: 2.5;
+  }
+
   .lh-0-6-t {
     line-height: 0.6;
   }
 
   .lh-1-6-t {
     line-height: 1.6;
+  }
+
+  .lh-2-6-t {
+    line-height: 2.6;
   }
 
   .lh-0-7-t {
@@ -7530,6 +7706,10 @@ html,body {
     line-height: 1.7;
   }
 
+  .lh-2-7-t {
+    line-height: 2.7;
+  }
+
   .lh-0-8-t {
     line-height: 0.8;
   }
@@ -7538,12 +7718,20 @@ html,body {
     line-height: 1.8;
   }
 
+  .lh-2-8-t {
+    line-height: 2.8;
+  }
+
   .lh-0-9-t {
     line-height: 0.9;
   }
 
   .lh-1-9-t {
     line-height: 1.9;
+  }
+
+  .lh-2-9-t {
+    line-height: 2.9;
   }
 
   .right-0-t {
@@ -9421,6 +9609,46 @@ html,body {
 }
 
 @media screen and (min-width: 1025px) {
+  .radius-0-d {
+    border-radius: 0rem;
+  }
+
+  .radius-0-25-d {
+    border-radius: 0.25rem;
+  }
+
+  .radius-0-5-d {
+    border-radius: 0.5rem;
+  }
+
+  .radius-0-75-d {
+    border-radius: 0.75rem;
+  }
+
+  .radius-1-d {
+    border-radius: 1rem;
+  }
+
+  .radius-1-5-d {
+    border-radius: 1.5rem;
+  }
+
+  .radius-2-d {
+    border-radius: 2rem;
+  }
+
+  .radius-4-d {
+    border-radius: 4rem;
+  }
+
+  .radius-8-d {
+    border-radius: 8rem;
+  }
+
+  .radius-16-d {
+    border-radius: 16rem;
+  }
+
   .ba-1px-d {
     border: 1px solid;
   }
@@ -9459,6 +9687,22 @@ html,body {
 
   .bl-0-d {
     border-left: none;
+  }
+
+  .bg-initial-d {
+    background-color: initial;
+  }
+
+  .bg-inherit-d {
+    background-color: inherit;
+  }
+
+  .color-initial-d {
+    color: initial;
+  }
+
+  .color-inherit-d {
+    color: inherit;
   }
 
   .indianred-d {
@@ -12173,12 +12417,20 @@ html,body {
     line-height: 1.1;
   }
 
+  .lh-2-1-d {
+    line-height: 2.1;
+  }
+
   .lh-0-2-d {
     line-height: 0.2;
   }
 
   .lh-1-2-d {
     line-height: 1.2;
+  }
+
+  .lh-2-2-d {
+    line-height: 2.2;
   }
 
   .lh-0-3-d {
@@ -12189,12 +12441,20 @@ html,body {
     line-height: 1.3;
   }
 
+  .lh-2-3-d {
+    line-height: 2.3;
+  }
+
   .lh-0-4-d {
     line-height: 0.4;
   }
 
   .lh-1-4-d {
     line-height: 1.4;
+  }
+
+  .lh-2-4-d {
+    line-height: 2.4;
   }
 
   .lh-0-5-d {
@@ -12205,12 +12465,20 @@ html,body {
     line-height: 1.5;
   }
 
+  .lh-2-5-d {
+    line-height: 2.5;
+  }
+
   .lh-0-6-d {
     line-height: 0.6;
   }
 
   .lh-1-6-d {
     line-height: 1.6;
+  }
+
+  .lh-2-6-d {
+    line-height: 2.6;
   }
 
   .lh-0-7-d {
@@ -12221,6 +12489,10 @@ html,body {
     line-height: 1.7;
   }
 
+  .lh-2-7-d {
+    line-height: 2.7;
+  }
+
   .lh-0-8-d {
     line-height: 0.8;
   }
@@ -12229,12 +12501,20 @@ html,body {
     line-height: 1.8;
   }
 
+  .lh-2-8-d {
+    line-height: 2.8;
+  }
+
   .lh-0-9-d {
     line-height: 0.9;
   }
 
   .lh-1-9-d {
     line-height: 1.9;
+  }
+
+  .lh-2-9-d {
+    line-height: 2.9;
   }
 
   .right-0-d {
@@ -14112,6 +14392,46 @@ html,body {
 }
 
 @media screen and (min-width: 1280px) {
+  .radius-0-dl {
+    border-radius: 0rem;
+  }
+
+  .radius-0-25-dl {
+    border-radius: 0.25rem;
+  }
+
+  .radius-0-5-dl {
+    border-radius: 0.5rem;
+  }
+
+  .radius-0-75-dl {
+    border-radius: 0.75rem;
+  }
+
+  .radius-1-dl {
+    border-radius: 1rem;
+  }
+
+  .radius-1-5-dl {
+    border-radius: 1.5rem;
+  }
+
+  .radius-2-dl {
+    border-radius: 2rem;
+  }
+
+  .radius-4-dl {
+    border-radius: 4rem;
+  }
+
+  .radius-8-dl {
+    border-radius: 8rem;
+  }
+
+  .radius-16-dl {
+    border-radius: 16rem;
+  }
+
   .ba-1px-dl {
     border: 1px solid;
   }
@@ -14150,6 +14470,22 @@ html,body {
 
   .bl-0-dl {
     border-left: none;
+  }
+
+  .bg-initial-dl {
+    background-color: initial;
+  }
+
+  .bg-inherit-dl {
+    background-color: inherit;
+  }
+
+  .color-initial-dl {
+    color: initial;
+  }
+
+  .color-inherit-dl {
+    color: inherit;
   }
 
   .indianred-dl {
@@ -16864,12 +17200,20 @@ html,body {
     line-height: 1.1;
   }
 
+  .lh-2-1-dl {
+    line-height: 2.1;
+  }
+
   .lh-0-2-dl {
     line-height: 0.2;
   }
 
   .lh-1-2-dl {
     line-height: 1.2;
+  }
+
+  .lh-2-2-dl {
+    line-height: 2.2;
   }
 
   .lh-0-3-dl {
@@ -16880,12 +17224,20 @@ html,body {
     line-height: 1.3;
   }
 
+  .lh-2-3-dl {
+    line-height: 2.3;
+  }
+
   .lh-0-4-dl {
     line-height: 0.4;
   }
 
   .lh-1-4-dl {
     line-height: 1.4;
+  }
+
+  .lh-2-4-dl {
+    line-height: 2.4;
   }
 
   .lh-0-5-dl {
@@ -16896,12 +17248,20 @@ html,body {
     line-height: 1.5;
   }
 
+  .lh-2-5-dl {
+    line-height: 2.5;
+  }
+
   .lh-0-6-dl {
     line-height: 0.6;
   }
 
   .lh-1-6-dl {
     line-height: 1.6;
+  }
+
+  .lh-2-6-dl {
+    line-height: 2.6;
   }
 
   .lh-0-7-dl {
@@ -16912,6 +17272,10 @@ html,body {
     line-height: 1.7;
   }
 
+  .lh-2-7-dl {
+    line-height: 2.7;
+  }
+
   .lh-0-8-dl {
     line-height: 0.8;
   }
@@ -16920,12 +17284,20 @@ html,body {
     line-height: 1.8;
   }
 
+  .lh-2-8-dl {
+    line-height: 2.8;
+  }
+
   .lh-0-9-dl {
     line-height: 0.9;
   }
 
   .lh-1-9-dl {
     line-height: 1.9;
+  }
+
+  .lh-2-9-dl {
+    line-height: 2.9;
   }
 
   .right-0-dl {
@@ -18803,6 +19175,46 @@ html,body {
 }
 
 @media screen and (max-width: 767px) {
+  .radius-0-m {
+    border-radius: 0rem;
+  }
+
+  .radius-0-25-m {
+    border-radius: 0.25rem;
+  }
+
+  .radius-0-5-m {
+    border-radius: 0.5rem;
+  }
+
+  .radius-0-75-m {
+    border-radius: 0.75rem;
+  }
+
+  .radius-1-m {
+    border-radius: 1rem;
+  }
+
+  .radius-1-5-m {
+    border-radius: 1.5rem;
+  }
+
+  .radius-2-m {
+    border-radius: 2rem;
+  }
+
+  .radius-4-m {
+    border-radius: 4rem;
+  }
+
+  .radius-8-m {
+    border-radius: 8rem;
+  }
+
+  .radius-16-m {
+    border-radius: 16rem;
+  }
+
   .ba-1px-m {
     border: 1px solid;
   }
@@ -18841,6 +19253,22 @@ html,body {
 
   .bl-0-m {
     border-left: none;
+  }
+
+  .bg-initial-m {
+    background-color: initial;
+  }
+
+  .bg-inherit-m {
+    background-color: inherit;
+  }
+
+  .color-initial-m {
+    color: initial;
+  }
+
+  .color-inherit-m {
+    color: inherit;
   }
 
   .indianred-m {
@@ -21555,12 +21983,20 @@ html,body {
     line-height: 1.1;
   }
 
+  .lh-2-1-m {
+    line-height: 2.1;
+  }
+
   .lh-0-2-m {
     line-height: 0.2;
   }
 
   .lh-1-2-m {
     line-height: 1.2;
+  }
+
+  .lh-2-2-m {
+    line-height: 2.2;
   }
 
   .lh-0-3-m {
@@ -21571,12 +22007,20 @@ html,body {
     line-height: 1.3;
   }
 
+  .lh-2-3-m {
+    line-height: 2.3;
+  }
+
   .lh-0-4-m {
     line-height: 0.4;
   }
 
   .lh-1-4-m {
     line-height: 1.4;
+  }
+
+  .lh-2-4-m {
+    line-height: 2.4;
   }
 
   .lh-0-5-m {
@@ -21587,12 +22031,20 @@ html,body {
     line-height: 1.5;
   }
 
+  .lh-2-5-m {
+    line-height: 2.5;
+  }
+
   .lh-0-6-m {
     line-height: 0.6;
   }
 
   .lh-1-6-m {
     line-height: 1.6;
+  }
+
+  .lh-2-6-m {
+    line-height: 2.6;
   }
 
   .lh-0-7-m {
@@ -21603,6 +22055,10 @@ html,body {
     line-height: 1.7;
   }
 
+  .lh-2-7-m {
+    line-height: 2.7;
+  }
+
   .lh-0-8-m {
     line-height: 0.8;
   }
@@ -21611,12 +22067,20 @@ html,body {
     line-height: 1.8;
   }
 
+  .lh-2-8-m {
+    line-height: 2.8;
+  }
+
   .lh-0-9-m {
     line-height: 0.9;
   }
 
   .lh-1-9-m {
     line-height: 1.9;
+  }
+
+  .lh-2-9-m {
+    line-height: 2.9;
   }
 
   .right-0-m {
