@@ -96,12 +96,20 @@ html,body {
   background-color: inherit;
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .color-initial {
   color: initial;
 }
 
 .color-inherit {
   color: inherit;
+}
+
+.color-transparent {
+  color: transparent;
 }
 
 .indianred {
@@ -4914,12 +4922,20 @@ html,body {
     background-color: inherit;
   }
 
+  .bg-transparent-t {
+    background-color: transparent;
+  }
+
   .color-initial-t {
     color: initial;
   }
 
   .color-inherit-t {
     color: inherit;
+  }
+
+  .color-transparent-t {
+    color: transparent;
   }
 
   .indianred-t {
@@ -9697,12 +9713,20 @@ html,body {
     background-color: inherit;
   }
 
+  .bg-transparent-d {
+    background-color: transparent;
+  }
+
   .color-initial-d {
     color: initial;
   }
 
   .color-inherit-d {
     color: inherit;
+  }
+
+  .color-transparent-d {
+    color: transparent;
   }
 
   .indianred-d {
@@ -14480,12 +14504,20 @@ html,body {
     background-color: inherit;
   }
 
+  .bg-transparent-dl {
+    background-color: transparent;
+  }
+
   .color-initial-dl {
     color: initial;
   }
 
   .color-inherit-dl {
     color: inherit;
+  }
+
+  .color-transparent-dl {
+    color: transparent;
   }
 
   .indianred-dl {
@@ -19263,12 +19295,20 @@ html,body {
     background-color: inherit;
   }
 
+  .bg-transparent-m {
+    background-color: transparent;
+  }
+
   .color-initial-m {
     color: initial;
   }
 
   .color-inherit-m {
     color: inherit;
+  }
+
+  .color-transparent-m {
+    color: transparent;
   }
 
   .indianred-m {

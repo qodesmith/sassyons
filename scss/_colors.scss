@@ -167,8 +167,10 @@ $colors: (
 
 .bg-initial { background-color: initial; }
 .bg-inherit { background-color: inherit; }
+.bg-transparent { background-color: transparent; }
 .color-initial { color: initial; }
 .color-inherit { color: inherit; }
+.color-transparent { color: transparent; }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
@@ -177,8 +179,10 @@ $colors: (
   @media #{$bp} {
     .bg-initial-#{$letters} { background-color: initial; }
     .bg-inherit-#{$letters} { background-color: inherit; }
+    .bg-transparent-#{$letters} { background-color: transparent; }
     .color-initial-#{$letters} { color: initial; }
     .color-inherit-#{$letters} { color: inherit; }
+    .color-transparent-#{$letters} { color: transparent; }
   }
 }
 
