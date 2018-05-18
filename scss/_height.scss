@@ -1,7 +1,11 @@
 .h-33  { height: 33% };
 .h-34  { height: 34% };
+.h-66  { height: 66% };
+.h-67  { height: 67% };
 .vh-33 { height: 33vh };
 .vh-34 { height: 34vh };
+.vh-66 { height: 66vh };
+.vh-67 { height: 67vh };
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
@@ -10,8 +14,12 @@
   @media #{$bp} {
     .h-33-#{$letters}  { height: 33% };
     .h-34-#{$letters}  { height: 34% };
+    .h-66-#{$letters}  { height: 66% };
+    .h-67-#{$letters}  { height: 67% };
     .vh-33-#{$letters} { height: 33vh };
     .vh-34-#{$letters} { height: 34vh };
+    .vh-66-#{$letters} { height: 66vh };
+    .vh-67-#{$letters} { height: 67vh };
   }
 }
 
