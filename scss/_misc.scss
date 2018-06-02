@@ -1,2 +1,14 @@
 .no-select { user-select: none; }
 .pointer { cursor: pointer; }
+.not-allowed { cursor: not-allowed; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .no-select-#{$letters} { user-select: none; }
+    .pointer-#{$letters} { cursor: pointer; }
+    .not-allowed-#{$letters} { cursor: not-allowed; }
+  }
+}
