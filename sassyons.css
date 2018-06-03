@@ -2220,6 +2220,10 @@ html,body {
   text-decoration: none;
 }
 
+.u {
+  text-decoration: underline;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -7066,6 +7070,10 @@ html,body {
     text-decoration: none;
   }
 
+  .u-t {
+    text-decoration: underline;
+  }
+
   .underline-t {
     text-decoration: underline;
   }
@@ -11883,6 +11891,10 @@ html,body {
 
   .no-decoration {
     text-decoration: none;
+  }
+
+  .u-t-l {
+    text-decoration: underline;
   }
 
   .underline-t-l {
@@ -16704,6 +16716,10 @@ html,body {
     text-decoration: none;
   }
 
+  .u-t-p {
+    text-decoration: underline;
+  }
+
   .underline-t-p {
     text-decoration: underline;
   }
@@ -21521,6 +21537,10 @@ html,body {
 
   .no-decoration {
     text-decoration: none;
+  }
+
+  .u-d {
+    text-decoration: underline;
   }
 
   .underline-d {
@@ -26342,6 +26362,10 @@ html,body {
     text-decoration: none;
   }
 
+  .u-d-l {
+    text-decoration: underline;
+  }
+
   .underline-d-l {
     text-decoration: underline;
   }
@@ -31159,6 +31183,10 @@ html,body {
 
   .no-decoration {
     text-decoration: none;
+  }
+
+  .u-d-p {
+    text-decoration: underline;
   }
 
   .underline-d-p {
@@ -35980,6 +36008,10 @@ html,body {
     text-decoration: none;
   }
 
+  .u-dl {
+    text-decoration: underline;
+  }
+
   .underline-dl {
     text-decoration: underline;
   }
@@ -40797,6 +40829,10 @@ html,body {
 
   .no-decoration {
     text-decoration: none;
+  }
+
+  .u-dl-l {
+    text-decoration: underline;
   }
 
   .underline-dl-l {
@@ -45618,6 +45654,10 @@ html,body {
     text-decoration: none;
   }
 
+  .u-dl-p {
+    text-decoration: underline;
+  }
+
   .underline-dl-p {
     text-decoration: underline;
   }
@@ -50435,6 +50475,10 @@ html,body {
 
   .no-decoration {
     text-decoration: none;
+  }
+
+  .u-m {
+    text-decoration: underline;
   }
 
   .underline-m {
@@ -55256,6 +55300,10 @@ html,body {
     text-decoration: none;
   }
 
+  .u-m-l {
+    text-decoration: underline;
+  }
+
   .underline-m-l {
     text-decoration: underline;
   }
@@ -60073,6 +60121,10 @@ html,body {
 
   .no-decoration {
     text-decoration: none;
+  }
+
+  .u-m-p {
+    text-decoration: underline;
   }
 
   .underline-m-p {

@@ -1,6 +1,7 @@
 .i { font-style: italic; }
 .fs-normal { font-style: normal; }
 .no-decoration { text-decoration: none; }
+.u { text-decoration: underline; }
 .underline { text-decoration: underline; }
 .overline { text-decoration: overline; }
 .line-through { text-decoration: line-through; }
@@ -17,6 +18,7 @@
     .i-#{$letters} { font-style: italic; }
     .fs-normal-#{$letters} { font-style: normal; }
     .no-decoration { text-decoration: none; }
+    .u-#{$letters} { text-decoration: underline; }
     .underline-#{$letters} { text-decoration: underline; }
     .overline-#{$letters} { text-decoration: overline; }
     .line-through-#{$letters} { text-decoration: line-through; }
