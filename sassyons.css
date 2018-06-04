@@ -1776,6 +1776,114 @@ html,body {
   font-size: 20vmin;
 }
 
+.f-0-1em {
+  font-size: 0.1em;
+}
+
+.f-0-1rem {
+  font-size: 0.1rem;
+}
+
+.f-0-1vmin {
+  font-size: 0.1vmin;
+}
+
+.f-0-2em {
+  font-size: 0.2em;
+}
+
+.f-0-2rem {
+  font-size: 0.2rem;
+}
+
+.f-0-2vmin {
+  font-size: 0.2vmin;
+}
+
+.f-0-3em {
+  font-size: 0.3em;
+}
+
+.f-0-3rem {
+  font-size: 0.3rem;
+}
+
+.f-0-3vmin {
+  font-size: 0.3vmin;
+}
+
+.f-0-4em {
+  font-size: 0.4em;
+}
+
+.f-0-4rem {
+  font-size: 0.4rem;
+}
+
+.f-0-4vmin {
+  font-size: 0.4vmin;
+}
+
+.f-0-5em {
+  font-size: 0.5em;
+}
+
+.f-0-5rem {
+  font-size: 0.5rem;
+}
+
+.f-0-5vmin {
+  font-size: 0.5vmin;
+}
+
+.f-0-6em {
+  font-size: 0.6em;
+}
+
+.f-0-6rem {
+  font-size: 0.6rem;
+}
+
+.f-0-6vmin {
+  font-size: 0.6vmin;
+}
+
+.f-0-7em {
+  font-size: 0.7em;
+}
+
+.f-0-7rem {
+  font-size: 0.7rem;
+}
+
+.f-0-7vmin {
+  font-size: 0.7vmin;
+}
+
+.f-0-8em {
+  font-size: 0.8em;
+}
+
+.f-0-8rem {
+  font-size: 0.8rem;
+}
+
+.f-0-8vmin {
+  font-size: 0.8vmin;
+}
+
+.f-0-9em {
+  font-size: 0.9em;
+}
+
+.f-0-9rem {
+  font-size: 0.9rem;
+}
+
+.f-0-9vmin {
+  font-size: 0.9vmin;
+}
+
 .f-1-1em {
   font-size: 1.1em;
 }
@@ -6626,6 +6734,114 @@ html,body {
     font-size: 20vmin;
   }
 
+  .f-0-1em-t {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-t {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-t {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-t {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-t {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-t {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-t {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-t {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-t {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-t {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-t {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-t {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-t {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-t {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-t {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-t {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-t {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-t {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-t {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-t {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-t {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-t {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-t {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-t {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-t {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-t {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-t {
+    font-size: 0.9vmin;
+  }
+
   .f-1-1em-t {
     font-size: 1.1em;
   }
@@ -11447,6 +11663,114 @@ html,body {
 
   .f-20vmin-t-l {
     font-size: 20vmin;
+  }
+
+  .f-0-1em-t-l {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-t-l {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-t-l {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-t-l {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-t-l {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-t-l {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-t-l {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-t-l {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-t-l {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-t-l {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-t-l {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-t-l {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-t-l {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-t-l {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-t-l {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-t-l {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-t-l {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-t-l {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-t-l {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-t-l {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-t-l {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-t-l {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-t-l {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-t-l {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-t-l {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-t-l {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-t-l {
+    font-size: 0.9vmin;
   }
 
   .f-1-1em-t-l {
@@ -16272,6 +16596,114 @@ html,body {
     font-size: 20vmin;
   }
 
+  .f-0-1em-t-p {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-t-p {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-t-p {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-t-p {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-t-p {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-t-p {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-t-p {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-t-p {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-t-p {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-t-p {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-t-p {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-t-p {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-t-p {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-t-p {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-t-p {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-t-p {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-t-p {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-t-p {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-t-p {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-t-p {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-t-p {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-t-p {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-t-p {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-t-p {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-t-p {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-t-p {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-t-p {
+    font-size: 0.9vmin;
+  }
+
   .f-1-1em-t-p {
     font-size: 1.1em;
   }
@@ -21093,6 +21525,114 @@ html,body {
 
   .f-20vmin-d {
     font-size: 20vmin;
+  }
+
+  .f-0-1em-d {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-d {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-d {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-d {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-d {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-d {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-d {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-d {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-d {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-d {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-d {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-d {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-d {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-d {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-d {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-d {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-d {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-d {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-d {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-d {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-d {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-d {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-d {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-d {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-d {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-d {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-d {
+    font-size: 0.9vmin;
   }
 
   .f-1-1em-d {
@@ -25918,6 +26458,114 @@ html,body {
     font-size: 20vmin;
   }
 
+  .f-0-1em-d-l {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-d-l {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-d-l {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-d-l {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-d-l {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-d-l {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-d-l {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-d-l {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-d-l {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-d-l {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-d-l {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-d-l {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-d-l {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-d-l {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-d-l {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-d-l {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-d-l {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-d-l {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-d-l {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-d-l {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-d-l {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-d-l {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-d-l {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-d-l {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-d-l {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-d-l {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-d-l {
+    font-size: 0.9vmin;
+  }
+
   .f-1-1em-d-l {
     font-size: 1.1em;
   }
@@ -30739,6 +31387,114 @@ html,body {
 
   .f-20vmin-d-p {
     font-size: 20vmin;
+  }
+
+  .f-0-1em-d-p {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-d-p {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-d-p {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-d-p {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-d-p {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-d-p {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-d-p {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-d-p {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-d-p {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-d-p {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-d-p {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-d-p {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-d-p {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-d-p {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-d-p {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-d-p {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-d-p {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-d-p {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-d-p {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-d-p {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-d-p {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-d-p {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-d-p {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-d-p {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-d-p {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-d-p {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-d-p {
+    font-size: 0.9vmin;
   }
 
   .f-1-1em-d-p {
@@ -35564,6 +36320,114 @@ html,body {
     font-size: 20vmin;
   }
 
+  .f-0-1em-dl {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-dl {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-dl {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-dl {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-dl {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-dl {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-dl {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-dl {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-dl {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-dl {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-dl {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-dl {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-dl {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-dl {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-dl {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-dl {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-dl {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-dl {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-dl {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-dl {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-dl {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-dl {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-dl {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-dl {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-dl {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-dl {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-dl {
+    font-size: 0.9vmin;
+  }
+
   .f-1-1em-dl {
     font-size: 1.1em;
   }
@@ -40385,6 +41249,114 @@ html,body {
 
   .f-20vmin-dl-l {
     font-size: 20vmin;
+  }
+
+  .f-0-1em-dl-l {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-dl-l {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-dl-l {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-dl-l {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-dl-l {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-dl-l {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-dl-l {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-dl-l {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-dl-l {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-dl-l {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-dl-l {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-dl-l {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-dl-l {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-dl-l {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-dl-l {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-dl-l {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-dl-l {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-dl-l {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-dl-l {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-dl-l {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-dl-l {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-dl-l {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-dl-l {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-dl-l {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-dl-l {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-dl-l {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-dl-l {
+    font-size: 0.9vmin;
   }
 
   .f-1-1em-dl-l {
@@ -45210,6 +46182,114 @@ html,body {
     font-size: 20vmin;
   }
 
+  .f-0-1em-dl-p {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-dl-p {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-dl-p {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-dl-p {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-dl-p {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-dl-p {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-dl-p {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-dl-p {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-dl-p {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-dl-p {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-dl-p {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-dl-p {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-dl-p {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-dl-p {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-dl-p {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-dl-p {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-dl-p {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-dl-p {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-dl-p {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-dl-p {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-dl-p {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-dl-p {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-dl-p {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-dl-p {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-dl-p {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-dl-p {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-dl-p {
+    font-size: 0.9vmin;
+  }
+
   .f-1-1em-dl-p {
     font-size: 1.1em;
   }
@@ -50031,6 +51111,114 @@ html,body {
 
   .f-20vmin-m {
     font-size: 20vmin;
+  }
+
+  .f-0-1em-m {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-m {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-m {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-m {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-m {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-m {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-m {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-m {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-m {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-m {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-m {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-m {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-m {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-m {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-m {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-m {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-m {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-m {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-m {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-m {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-m {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-m {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-m {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-m {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-m {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-m {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-m {
+    font-size: 0.9vmin;
   }
 
   .f-1-1em-m {
@@ -54856,6 +56044,114 @@ html,body {
     font-size: 20vmin;
   }
 
+  .f-0-1em-m-l {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-m-l {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-m-l {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-m-l {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-m-l {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-m-l {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-m-l {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-m-l {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-m-l {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-m-l {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-m-l {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-m-l {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-m-l {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-m-l {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-m-l {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-m-l {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-m-l {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-m-l {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-m-l {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-m-l {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-m-l {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-m-l {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-m-l {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-m-l {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-m-l {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-m-l {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-m-l {
+    font-size: 0.9vmin;
+  }
+
   .f-1-1em-m-l {
     font-size: 1.1em;
   }
@@ -59677,6 +60973,114 @@ html,body {
 
   .f-20vmin-m-p {
     font-size: 20vmin;
+  }
+
+  .f-0-1em-m-p {
+    font-size: 0.1em;
+  }
+
+  .f-0-1rem-m-p {
+    font-size: 0.1rem;
+  }
+
+  .f-0-1vmin-m-p {
+    font-size: 0.1vmin;
+  }
+
+  .f-0-2em-m-p {
+    font-size: 0.2em;
+  }
+
+  .f-0-2rem-m-p {
+    font-size: 0.2rem;
+  }
+
+  .f-0-2vmin-m-p {
+    font-size: 0.2vmin;
+  }
+
+  .f-0-3em-m-p {
+    font-size: 0.3em;
+  }
+
+  .f-0-3rem-m-p {
+    font-size: 0.3rem;
+  }
+
+  .f-0-3vmin-m-p {
+    font-size: 0.3vmin;
+  }
+
+  .f-0-4em-m-p {
+    font-size: 0.4em;
+  }
+
+  .f-0-4rem-m-p {
+    font-size: 0.4rem;
+  }
+
+  .f-0-4vmin-m-p {
+    font-size: 0.4vmin;
+  }
+
+  .f-0-5em-m-p {
+    font-size: 0.5em;
+  }
+
+  .f-0-5rem-m-p {
+    font-size: 0.5rem;
+  }
+
+  .f-0-5vmin-m-p {
+    font-size: 0.5vmin;
+  }
+
+  .f-0-6em-m-p {
+    font-size: 0.6em;
+  }
+
+  .f-0-6rem-m-p {
+    font-size: 0.6rem;
+  }
+
+  .f-0-6vmin-m-p {
+    font-size: 0.6vmin;
+  }
+
+  .f-0-7em-m-p {
+    font-size: 0.7em;
+  }
+
+  .f-0-7rem-m-p {
+    font-size: 0.7rem;
+  }
+
+  .f-0-7vmin-m-p {
+    font-size: 0.7vmin;
+  }
+
+  .f-0-8em-m-p {
+    font-size: 0.8em;
+  }
+
+  .f-0-8rem-m-p {
+    font-size: 0.8rem;
+  }
+
+  .f-0-8vmin-m-p {
+    font-size: 0.8vmin;
+  }
+
+  .f-0-9em-m-p {
+    font-size: 0.9em;
+  }
+
+  .f-0-9rem-m-p {
+    font-size: 0.9rem;
+  }
+
+  .f-0-9vmin-m-p {
+    font-size: 0.9vmin;
   }
 
   .f-1-1em-m-p {

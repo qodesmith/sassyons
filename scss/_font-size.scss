@@ -31,6 +31,26 @@
   }
 }
 
+// 0.1 - 0.9
+@for $num from 1 through 9 {
+  $i: $num / 10;
+
+  .f-0-#{$num}em { font-size: #{$i}em; }
+  .f-0-#{$num}rem { font-size: #{$i}rem; }
+  .f-0-#{$num}vmin { font-size: #{$i}vmin; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .f-0-#{$num}em-#{$letters} { font-size: #{$i}em; }
+      .f-0-#{$num}rem-#{$letters} { font-size: #{$i}rem; }
+      .f-0-#{$num}vmin-#{$letters} { font-size: #{$i}vmin; }
+    }
+  }
+}
+
 // 1.1 - 1.9,
 // 2.1 - 2.9,
 // 3.1 - 3.9,
