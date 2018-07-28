@@ -1260,6 +1260,10 @@ html,body {
   display: none;
 }
 
+.di {
+  display: inline;
+}
+
 .db {
   display: block;
 }
@@ -6218,6 +6222,10 @@ html,body {
     display: none;
   }
 
+  .di-t {
+    display: inline;
+  }
+
   .db-t {
     display: block;
   }
@@ -11147,6 +11155,10 @@ html,body {
 
   .dn-t-l {
     display: none;
+  }
+
+  .di-t-l {
+    display: inline;
   }
 
   .db-t-l {
@@ -16080,6 +16092,10 @@ html,body {
     display: none;
   }
 
+  .di-t-p {
+    display: inline;
+  }
+
   .db-t-p {
     display: block;
   }
@@ -21009,6 +21025,10 @@ html,body {
 
   .dn-d {
     display: none;
+  }
+
+  .di-d {
+    display: inline;
   }
 
   .db-d {
@@ -25942,6 +25962,10 @@ html,body {
     display: none;
   }
 
+  .di-d-l {
+    display: inline;
+  }
+
   .db-d-l {
     display: block;
   }
@@ -30871,6 +30895,10 @@ html,body {
 
   .dn-d-p {
     display: none;
+  }
+
+  .di-d-p {
+    display: inline;
   }
 
   .db-d-p {
@@ -35804,6 +35832,10 @@ html,body {
     display: none;
   }
 
+  .di-dl {
+    display: inline;
+  }
+
   .db-dl {
     display: block;
   }
@@ -40733,6 +40765,10 @@ html,body {
 
   .dn-dl-l {
     display: none;
+  }
+
+  .di-dl-l {
+    display: inline;
   }
 
   .db-dl-l {
@@ -45666,6 +45702,10 @@ html,body {
     display: none;
   }
 
+  .di-dl-p {
+    display: inline;
+  }
+
   .db-dl-p {
     display: block;
   }
@@ -50595,6 +50635,10 @@ html,body {
 
   .dn-m {
     display: none;
+  }
+
+  .di-m {
+    display: inline;
   }
 
   .db-m {
@@ -55528,6 +55572,10 @@ html,body {
     display: none;
   }
 
+  .di-m-l {
+    display: inline;
+  }
+
   .db-m-l {
     display: block;
   }
@@ -60457,6 +60505,10 @@ html,body {
 
   .dn-m-p {
     display: none;
+  }
+
+  .di-m-p {
+    display: inline;
   }
 
   .db-m-p {
