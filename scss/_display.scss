@@ -9,8 +9,6 @@ $displays: (
   dit inline-table
 );
 
-.d-initial { display: initial; }
-
 @each $display in $displays {
   // .df { display: flex; }
   .#{nth($display, 1)} { display: #{nth($display, 2)}; }
@@ -20,8 +18,18 @@ $displays: (
     $letters: nth($breakpoint, 2);
 
     @media #{$bp} { // @media screen and (max-width: 767px) {
-      .d-initial-#{$letters} { display: initial; }
       .#{nth($display, 1)}-#{$letters} { display: #{nth($display, 2)}; }
     }
+  }
+}
+
+.d-initial { display: initial; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} { // @media screen and (max-width: 767px) {
+    .d-initial-#{$letters} { display: initial; }
   }
 }

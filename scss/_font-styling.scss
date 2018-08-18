@@ -17,7 +17,7 @@
   @media #{$bp} {
     .i-#{$letters} { font-style: italic; }
     .fs-normal-#{$letters} { font-style: normal; }
-    .no-decoration { text-decoration: none; }
+    .no-decoration-#{$letters} { text-decoration: none; }
     .u-#{$letters} { text-decoration: underline; }
     .underline-#{$letters} { text-decoration: underline; }
     .overline-#{$letters} { text-decoration: overline; }
