@@ -8,7 +8,6 @@ $mobile: 'screen and (max-width: 767px)' !default;
 $mobile-l: #{$mobile} 'and (orientation: landscape)' !default;
 $mobile-p: #{$mobile} 'and (orientation: portrait)' !default;
 
-
 // TABLET
 $tablet-up: 'screen and (min-width: 768px)' !default;
 $tablet-up-l: 'screen and (min-width: 768px) and (orientation: landscape)' !default;
@@ -22,42 +21,21 @@ $tablet: 'screen and (min-width: 768px) and (max-width: 1024px)' !default;
 $tablet-l: 'screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)' !default;
 $tablet-p: 'screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait)' !default;
 
-
 // DESKTOP
 $desktop-up: 'screen and (min-width: 1025px)' !default;
-$desktop-up-l: 'screen and (min-width: 1025px) and (orientation: landscape)' !default;
-$desktop-up-p: 'screen and (min-width: 1025px) and (orientation: portrait)' !default;
-
 $desktop-down: 'screen and (max-width: 1280px)' !default;
-$desktop-down-l: 'screen and (max-width: 1280px) and (orientation: landscape)' !default;
-$desktop-down-p: 'screen and (max-width: 1280px) and (orientation: portrait)' !default;
-
 $desktop: 'screen and (min-width: 1025px) and (max-width: 1280px)' !default;
-$desktop-l: 'screen and (min-width: 1025px) and (max-width: 1280px) and (orientation: landscape)' !default;
-$desktop-p: 'screen and (min-width: 1025px) and (max-width: 1280px) and (orientation: portrait)' !default;
-
 
 // DESKTOP-LARGE
 $desktop-large: 'screen and (min-width: 1281px)' !default;
-$desktop-large-l: 'screen and (min-width: 1281px) and (orientation: landscape)' !default;
-$desktop-large-p: 'screen and (min-width: 1281px) and (orientation: portrait)' !default;
+
 
 $breakpoints: (
   $desktop-large dl,
-  $desktop-large-l dl-l,
-  $desktop-large-p dl-p,
 
   $desktop d,
-  $desktop-l d-l,
-  $desktop-p d-p,
-
   $desktop-down d-down,
-  $desktop-down-l d-down-l,
-  $desktop-down-p d-down-p,
-
   $desktop-up d-up,
-  $desktop-up-l d-up-l,
-  $desktop-up-p d-up-p,
 
   $tablet t,
   $tablet-l t-l,
