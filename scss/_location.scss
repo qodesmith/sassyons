@@ -5,6 +5,8 @@ $verticals: top bottom;
   .#{$dir}-0 { #{$dir}: 0; }
   .#{$dir}-50 { #{$dir}: 50%; }
   .#{$dir}-50-vw { #{$dir}: 50vw; }
+  .#{$dir}-100 { #{$dir}: 100%; }
+  .#{$dir}-100-vw { #{$dir}: 100vw; }
   .#{$dir}-initial { #{$dir}: initial; }
 
   @each $breakpoint in $breakpoints {
@@ -15,6 +17,8 @@ $verticals: top bottom;
       .#{$dir}-0-#{$letters} { #{$dir}: 0; }
       .#{$dir}-50-#{$letters} { #{$dir}: 50%; }
       .#{$dir}-50-vw-#{$letters} { #{$dir}: 50vw; }
+      .#{$dir}-100-#{$letters} { #{$dir}: 100%; }
+      .#{$dir}-100-vw-#{$letters} { #{$dir}: 100vw; }
       .#{$dir}-initial-#{$letters} { #{$dir}: initial; }
     }
   }
@@ -24,6 +28,8 @@ $verticals: top bottom;
   .#{$dir}-0 { #{$dir}: 0; }
   .#{$dir}-50 { #{$dir}: 50%; }
   .#{$dir}-50-vh { #{$dir}: 50vh; }
+  .#{$dir}-100 { #{$dir}: 100%; }
+  .#{$dir}-100-vh { #{$dir}: 100vh; }
   .#{$dir}-initial { #{$dir}: initial; }
 
   @each $breakpoint in $breakpoints {
@@ -34,6 +40,8 @@ $verticals: top bottom;
       .#{$dir}-0-#{$letters} { #{$dir}: 0; }
       .#{$dir}-50-#{$letters} { #{$dir}: 50%; }
       .#{$dir}-50-vh-#{$letters} { #{$dir}: 50vh; }
+      .#{$dir}-100-#{$letters} { #{$dir}: 100%; }
+      .#{$dir}-100-vh-#{$letters} { #{$dir}: 100vh; }
       .#{$dir}-initial-#{$letters} { #{$dir}: initial; }
     }
   }
