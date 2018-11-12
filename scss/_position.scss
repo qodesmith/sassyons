@@ -8,7 +8,7 @@ $positions: absolute relative fixed static;
     $letters: nth($breakpoint, 2);
 
     @media #{$bp} {
-      .#{$position}-#{$letters} { display: #{$position}; }
+      .#{$position}-#{$letters} { position: #{$position}; }
     }
   }
 }
