@@ -1283,6 +1283,10 @@ html,body {
   display: table;
 }
 
+.dtr {
+  display: table-row;
+}
+
 .dit {
   display: inline-table;
 }
@@ -6141,6 +6145,10 @@ html,body {
     display: table;
   }
 
+  .dtr-t {
+    display: table-row;
+  }
+
   .dit-t {
     display: inline-table;
   }
@@ -10978,6 +10986,10 @@ html,body {
 
   .dt-t-l {
     display: table;
+  }
+
+  .dtr-t-l {
+    display: table-row;
   }
 
   .dit-t-l {
@@ -15819,6 +15831,10 @@ html,body {
     display: table;
   }
 
+  .dtr-t-p {
+    display: table-row;
+  }
+
   .dit-t-p {
     display: inline-table;
   }
@@ -20656,6 +20672,10 @@ html,body {
 
   .dt-t-up {
     display: table;
+  }
+
+  .dtr-t-up {
+    display: table-row;
   }
 
   .dit-t-up {
@@ -25497,6 +25517,10 @@ html,body {
     display: table;
   }
 
+  .dtr-t-up-l {
+    display: table-row;
+  }
+
   .dit-t-up-l {
     display: inline-table;
   }
@@ -30334,6 +30358,10 @@ html,body {
 
   .dt-t-up-p {
     display: table;
+  }
+
+  .dtr-t-up-p {
+    display: table-row;
   }
 
   .dit-t-up-p {
@@ -35175,6 +35203,10 @@ html,body {
     display: table;
   }
 
+  .dtr-d {
+    display: table-row;
+  }
+
   .dit-d {
     display: inline-table;
   }
@@ -40012,6 +40044,10 @@ html,body {
 
   .dt-d-up {
     display: table;
+  }
+
+  .dtr-d-up {
+    display: table-row;
   }
 
   .dit-d-up {
@@ -44853,6 +44889,10 @@ html,body {
     display: table;
   }
 
+  .dtr-dl {
+    display: table-row;
+  }
+
   .dit-dl {
     display: inline-table;
   }
@@ -49690,6 +49730,10 @@ html,body {
 
   .dt-d-down {
     display: table;
+  }
+
+  .dtr-d-down {
+    display: table-row;
   }
 
   .dit-d-down {
@@ -54531,6 +54575,10 @@ html,body {
     display: table;
   }
 
+  .dtr-t-down {
+    display: table-row;
+  }
+
   .dit-t-down {
     display: inline-table;
   }
@@ -59368,6 +59416,10 @@ html,body {
 
   .dt-t-down-l {
     display: table;
+  }
+
+  .dtr-t-down-l {
+    display: table-row;
   }
 
   .dit-t-down-l {
@@ -64209,6 +64261,10 @@ html,body {
     display: table;
   }
 
+  .dtr-t-down-p {
+    display: table-row;
+  }
+
   .dit-t-down-p {
     display: inline-table;
   }
@@ -69046,6 +69102,10 @@ html,body {
 
   .dt-m {
     display: table;
+  }
+
+  .dtr-m {
+    display: table-row;
   }
 
   .dit-m {
@@ -73887,6 +73947,10 @@ html,body {
     display: table;
   }
 
+  .dtr-m-l {
+    display: table-row;
+  }
+
   .dit-m-l {
     display: inline-table;
   }
@@ -78724,6 +78788,10 @@ html,body {
 
   .dt-m-p {
     display: table;
+  }
+
+  .dtr-m-p {
+    display: table-row;
   }
 
   .dit-m-p {
