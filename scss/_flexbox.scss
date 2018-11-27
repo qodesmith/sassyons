@@ -55,7 +55,7 @@ $flexStuff: (
 }
 
 @for $i from 0 through 10 {
-  .flex-order-#{$i}  { flex-order: #{$i}; }
+  .flex-order-#{$i}  { order: #{$i}; }
   .flex-grow-#{$i}   { flex-grow: #{$i}; }
   .flex-shrink-#{$i} { flex-shrink: #{$i}; }
 
@@ -64,7 +64,7 @@ $flexStuff: (
     $letters: nth($breakpoint, 2);
 
     @media #{$bp} {
-      .flex-order-#{$i}-#{$letters}  { flex-order: #{$i}; }
+      .flex-order-#{$i}-#{$letters}  { order: #{$i}; }
       .flex-grow-#{$i}-#{$letters}   { flex-grow: #{$i}; }
       .flex-shrink-#{$i}-#{$letters} { flex-shrink: #{$i}; }
     }
