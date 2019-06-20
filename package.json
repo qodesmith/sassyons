@@ -2,12 +2,12 @@
   "name": "sassyons",
   "version": "2.2.1",
   "description": "Inspired by Tachyons",
-  "main": "sassyons.min.css",
-  "style": "./scss/tachyons.scss",
-  "_why_the_style_field": "https://goo.gl/i6fb1I, https://goo.gl/jXccT3 - postcss-import (and others) use the `style` field to resolve CSS packages.",
+  "main": "./dist/sassyons.min.css",
+  "style": "./scss/sassyons.scss",
+  "_why_the_style_field": "http://bit.ly/2KsXMbY, http://bit.ly/2KvdIL4 - postcss-import (and others) use the `style` field to resolve CSS packages.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp build"
+    "build": "node compile-assets.js"
   },
   "keywords": [
     "sassyons",
@@ -24,10 +24,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-combine-mq": "^0.4.0",
-    "gulp-csso": "^3.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0"
+    "node-sass": "^4.12.0",
+    "postcss": "^7.0.17",
+    "postcss-combine-duplicated-selectors": "^7.0.0",
+    "postcss-discard-comments": "^4.0.2",
+    "postcss-extract-media-query": "^1.2.0"
   }
 }

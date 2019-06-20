@@ -2,6 +2,7 @@
 .lh-1 { line-height: 1; }
 .lh-2 { line-height: 2; }
 .lh-3 { line-height: 3; }
+.lh-initial { line-height: initial; }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
@@ -11,6 +12,7 @@
     .lh-0-#{$letters} { line-height: 0; }
     .lh-1-#{$letters} { line-height: 1; }
     .lh-2-#{$letters} { line-height: 2; }
+    .lh-initial-#{$letters} { line-height: initial; }
   }
 }
 

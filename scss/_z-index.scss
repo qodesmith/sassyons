@@ -1,5 +1,7 @@
 .z999 { z-index: 999; }
 .z9999 { z-index: 9999; }
+.z-3 { z-index: -3; }
+.z-2 { z-index: -2; }
 .z-1 { z-index: -1; }
 .z-initial { z-index: initial; }
 
@@ -10,6 +12,8 @@
   @media #{$bp} {
     .z999-#{$letters} { z-index: 999; }
     .z9999-#{$letters} { z-index: 9999; }
+    .z-3-#{$letters} { z-index: -3; }
+    .z-2-#{$letters} { z-index: -2; }
     .z-1-#{$letters} { z-index: -1; }
     .z-initial-#{$letters} { z-index: initial; }
   }
