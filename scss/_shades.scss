@@ -1,15 +1,5 @@
 $shades: black white;
 
-.bg-cc { background: currentColor; }
-@each $breakpoint in $breakpoints {
-  $bp: nth($breakpoint, 1);
-  $letters: nth($breakpoint, 2);
-
-  @media #{$bp} {
-    .bg-cc-#{$letters} { background: currentColor; }
-  }
-}
-
 @each $shade in $shades {
   // .black { color: black; }
   // .bg-black { background-color: black; }

@@ -13,7 +13,7 @@
   @return $string;
 }
 
-// 1 - 30: em, rem, vmin
+// 1 - 20: em, rem, vmin
 @for $i from 1 through 20 {
   .f-#{$i}em { font-size: #{$i}em; }
   .f-#{$i}rem { font-size: #{$i}rem; }
