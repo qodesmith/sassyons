@@ -7,7 +7,8 @@
   "_why_the_style_field": "http://bit.ly/2KsXMbY, http://bit.ly/2KvdIL4 - postcss-import (and others) use the `style` field to resolve CSS packages.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node compile-assets.js"
+    "build": "node compile-assets.js",
+    "prepublish": "node compile-assets.js"
   },
   "keywords": [
     "sassyons",
