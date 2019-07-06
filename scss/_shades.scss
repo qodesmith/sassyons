@@ -1,36 +1,34 @@
-$shades: black white;
+// Solid `black` and `white` colors are defined in `_colors.scss`.
 
-@each $shade in $shades {
-  // .black { color: black; }
-  // .bg-black { background-color: black; }
-  .#{$shade} { color: #{$shade}; }
-  .bg-#{$shade} { background-color: #{$shade}; }
 
-  @for $i from 1 through 19 {
-    $opacity: $i / 20;
-    $num: $i * 5;
+@for $i from 1 through 19 {
+  $num: $i * 5;
+  $color: darken(white, $num);
 
-    // .black-5 { color: rgba(0,0,0,0.05); }
-    // .white-5 { color: rgba(255,255,255,0.05); }
-    .#{$shade}-#{$num} { color: rgba($shade, $opacity); }
+  .black-#{$num} { color: $color; }
+  .bg-black-#{$num} { background-color: $color; }
 
-    // .bg-black-5 { background-color: rgba(0,0,0,0.05); }
-    // .bg-white-5 { background-color: rgba(255,255,255,0.05); }
-    .bg-#{$shade}-#{$num} { background-color: rgba($shade, $opacity); }
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
 
-    @each $breakpoint in $breakpoints {
-      $bp: nth($breakpoint, 1);
-      $letters: nth($breakpoint, 2);
+    .black-#{$num}-#{$letters} { color: $color; }
+    .bg-black-#{$num}-#{$letters} { background-color: $color; }
+  }
+}
 
-      @media #{$bp} { // @media screen and (max-width: 767px) {
-        // .black-5-m { color: rgba(0,0,0,0.05); }
-        // .white-5-m { color: rgba(255,255,255,0.05); }
-        .#{$shade}-#{$num}-#{$letters} { color: rgba($shade, $opacity); }
+@for $i from 1 through 19 {
+  $num: $i * 5;
+  $color: lighten(black, $num);
 
-        // .bg-black-5-m { background: rgba(0,0,0,0.05); }
-        // .bg-white-5-m { background: rgba(255,255,255,0.05); }
-        .bg-#{$shade}-#{$num}-#{$letters} { background-color: rgba($shade, $opacity); }
-      }
-    }
+  .white-#{$num} { color: $color; }
+  .bg-white-#{$num} { background-color: $color; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    .white-#{$num}-#{$letters} { color: $color; }
+    .bg-white-#{$num}-#{$letters} { background-color: $color; }
   }
 }
