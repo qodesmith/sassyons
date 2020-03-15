@@ -13,6 +13,19 @@
   @return $string;
 }
 
+.f-initial { font-size: initial; }
+.f-inherit { font-size: inherit; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .f-initial-#{$letters} { font-size: initial; }
+    .f-inherit-#{$letters} { font-size: inherit; }
+  }
+}
+
 // 1 - 20: em, rem, vmin
 @for $i from 1 through 20 {
   .f-#{$i}em { font-size: #{$i}em; }
