@@ -8,7 +8,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node compile-assets.js",
-    "prepublishOnly": "node compile-assets.js"
+    "prepublishOnly": "npm run lint",
+    "lint": "npm run build && stylelint ./dist/sassyons.css && echo \"Linting passed!\"",
+    "lint-only": "stylelint ./dist/sassyons.css && echo \"Linting passed!\""
   },
   "keywords": [
     "sassyons",
@@ -27,8 +29,13 @@
   "devDependencies": {
     "node-sass": "^4.13.1",
     "postcss": "^7.0.27",
+    "postcss-colormin": "^4.0.3",
     "postcss-combine-duplicated-selectors": "^8.1.0",
     "postcss-combine-media-query": "^1.0.1",
-    "postcss-discard-comments": "^4.0.2"
+    "postcss-convert-values": "^4.0.1",
+    "postcss-discard-comments": "^4.0.2",
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0"
   }
 }

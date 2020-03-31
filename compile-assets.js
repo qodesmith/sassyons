@@ -6,12 +6,18 @@ const noComment = require('postcss-discard-comments')
 const combineSelectors = require('postcss-combine-duplicated-selectors')
 const combineMediaQuery = require('postcss-combine-media-query')
 
+// For a list of cssnano packages, see https://bit.ly/2wPj6TS
+const colormin = require('postcss-colormin').default
+const convertValues = require('postcss-convert-values')
+
 
 const dir = path.resolve(__dirname, 'dist')
 const postCssPlugins = [
   noComment(),
   combineSelectors({ removeDuplicatedProperties: true }),
-  combineMediaQuery()
+  combineMediaQuery(),
+  colormin(),
+  convertValues()
 ]
 const scssOptions = {
   file: path.resolve(__dirname, 'scss/sassyons.scss'),
