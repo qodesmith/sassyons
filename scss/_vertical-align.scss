@@ -1,0 +1,32 @@
+/*
+  How I came to add this...
+  Well, the library as a whole is an accumulative work, so as I need something, I add it.
+  I noticed that some spans in a div with the `dib` class were adding height to the parent div.
+  The solution (https://bit.ly/2UvqZH4) was to add vertical-align to the spans.
+  https://bit.ly/2Jt9Asq - shows the effects of all the vertical-align values.
+*/
+
+$vertical-aligns: (
+  base baseline,
+  t top,
+  m middle,
+  b bottom,
+  s sub,
+  tt text-top,
+);
+
+@each $va in $vertical-aligns {
+  $alias: nth($va, 1);
+  $value: nth($va, 2);
+
+  .va-#{$alias} { vertical-align: #{$value}; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .va-#{$alias}-#{$letters} { vertical-align: #{$value}; }
+    }
+  }
+}
