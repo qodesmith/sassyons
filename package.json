@@ -27,6 +27,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "fs-extra": "^9.0.1",
     "node-sass": "^5.0.0",
     "postcss": "^8.2.1",
     "postcss-colormin": "^4.0.3",

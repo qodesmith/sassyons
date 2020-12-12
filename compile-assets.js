@@ -1,5 +1,5 @@
 const path = require('path')
-const fs = require('fs')
+const fs = require('fs-extra')
 const scss = require('node-sass')
 const postCss = require('postcss')
 const noComment = require('postcss-discard-comments')
@@ -34,6 +34,7 @@ scss.render(scssOptions, (err1, results1) => {
     .process(results1.css.toString(), { from: undefined })
     .then(({ css }) => {
       // Write the unminified css to a file.
+      fs.ensureFileSync(`${dir}/sassyons.css`)
       fs.writeFileSync(`${dir}/sassyons.css`, css, 'utf8')
 
       scss.render({ data: css, outputStyle: 'compressed' }, (err2, results2) => {
