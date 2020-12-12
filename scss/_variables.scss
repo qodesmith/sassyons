@@ -1,7 +1,14 @@
-// I know some mobile-first folks will scream, but I like each breakpoint to be explicit.
-// Plus, I guess I haven't embraced the whole mobile-first thing in the first place.
-// Also, I'm not a fan of Tachyons' use of `em` for everything.
-
+/*
+  -------------------------
+  Mobile  | 0px    - 767px
+  -------------------------
+  Tablet  | 768px  - 1024px
+  -------------------------
+  Desktop | 1025px - 1280px
+  -------------------------
+  Large   | 1281px & up
+  -------------------------
+*/
 
 // MOBILE
 $mobile: 'screen and (max-width: 767px)' !default;
@@ -54,6 +61,4 @@ $breakpoints: (
   $mobile-p m-p
 );
 
-// 1 rem = 16px, as set on html & the body in `sassyons.scss`.
-$remSizes: 0 .25 .5 .75 1 1.5 2 4 8 16;
 $pixelSizes: 0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64;

@@ -30,10 +30,10 @@
 }
 
 $radiusCorners: (
-  (tl top-left-radius),
-  (tr top-right-radius),
-  (bl bottom-left-radius),
-  (br bottom-right-radius),
+  tl top-left-radius,
+  tr top-right-radius,
+  bl bottom-left-radius,
+  br bottom-right-radius,
 );
 
 @for $num from 1 through length($pixelSizes) {
