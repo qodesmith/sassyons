@@ -10,28 +10,6 @@
 .bb-0 { border-bottom: none; }
 .bl-0 { border-left: none; }
 
-$radiusSizes: '0' '0-25' '0-5' '0-75' '1' '1-5' '2' '4' '8' '16';
-@for $num from 1 through length($radiusSizes) {
-  $radius: nth($radiusSizes, $num);
-  $val: nth($remSizes, $num);
-
-  .radius-#{$radius} { border-radius: #{$val}rem; }
-}
-
-@each $breakpoint in $breakpoints {
-  $bp: nth($breakpoint, 1);
-  $letters: nth($breakpoint, 2);
-
-  @for $num from 1 through length($radiusSizes) {
-    $radius: nth($radiusSizes, $num);
-    $val: nth($remSizes, $num);
-
-    @media #{$bp} {
-      .radius-#{$radius}-#{$letters} { border-radius: #{$val}rem; }
-    }
-  }
-}
-
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
   $letters: nth($breakpoint, 2);
@@ -48,5 +26,24 @@ $radiusSizes: '0' '0-25' '0-5' '0-75' '1' '1-5' '2' '4' '8' '16';
     .br-0-#{$letters} { border-right: none; }
     .bb-0-#{$letters} { border-bottom: none; }
     .bl-0-#{$letters} { border-left: none; }
+  }
+}
+
+@for $num from 1 through length($pixelSizes) {
+  $radius: nth($pixelSizes, $num);
+
+  .radius#{$radius} { border-radius: #{$radius}px; }
+}
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @for $num from 1 through length($pixelSizes) {
+    $radius: nth($pixelSizes, $num);
+
+    @media #{$bp} {
+      .radius#{$radius}-#{$letters} { border-radius: #{$radius}px; }
+    }
   }
 }
