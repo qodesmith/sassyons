@@ -16,6 +16,8 @@ Here's what the shorthand names mean:
 | mr | margin right |
 | mb | margin bottom |
 | ml | margin left |
+| mh | margin horizontal |
+| mv | margin vertical |
 
 Here's the classes you can use:
 
