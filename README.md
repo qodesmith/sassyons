@@ -19,3 +19,4 @@ Sassyons includes a bunch of modules, each pertaining to a different part of CSS
 * [Font Size](docs/font-size.md)
 * [Font Styling](docs/font-styling.md)
 * [Heights](docs/heights.md)
+* [Line Height](docs/line-height.md)
