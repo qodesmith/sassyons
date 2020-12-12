@@ -12,4 +12,6 @@ Sassyons is a SCSS utility libaray offering a bajillion helper classes designed 
 # Show Me The Styles!
 Sassyons includes a bunch of modules, each pertaining to a different part of CSS. Click on any one of the modules below to see what goodies Sassyons has to offer!
 
-* [Border](docs/border.md)
+* [Borders](docs/borders.md)
+* [Colors](docs/colors.md)
+* [Display](docs/display.md)
