@@ -15,3 +15,4 @@ Sassyons includes a bunch of modules, each pertaining to a different part of CSS
 * [Borders](docs/borders.md)
 * [Colors](docs/colors.md)
 * [Display](docs/display.md)
+* [Flexbox](docs/flexbox.md)
