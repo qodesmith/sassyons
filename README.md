@@ -23,3 +23,4 @@ Sassyons includes a bunch of modules, each pertaining to a different part of CSS
 * [Line Height](docs/line-height.md)
 * [Margins](docs/margins.md)
 * [Misc](docs/misc.md)
+* [Opacity](docs/opacity.md)
