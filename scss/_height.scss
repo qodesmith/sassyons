@@ -3,15 +3,35 @@
 .vh-third { height: calc(100vh / 3); }
 .vh-2third { height: calc((100vh / 3) * 2); }
 
+.h-min-third { min-height: calc(100% / 3); }
+.h-min-2third { min-height: calc((100% / 3) * 2); }
+.vh-min-third { min-height: calc(100vh / 3); }
+.vh-min-2third { min-height: calc((100vh / 3) * 2); }
+
+.h-max-third { max-height: calc(100% / 3); }
+.h-max-2third { max-height: calc((100% / 3) * 2); }
+.vh-max-third { max-height: calc(100vh / 3); }
+.vh-max-2third { max-height: calc((100vh / 3) * 2); }
+
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
   $letters: nth($breakpoint, 2);
 
   @media #{$bp} {
-    .h-third { height: calc(100% / 3); }
-    .h-2third { height: calc((100% / 3) * 2); }
-    .vh-third { height: calc(100vh / 3); }
-    .vh-2third { height: calc((100vh / 3) * 2); }
+    .h-third-#{$letters} { height: calc(100% / 3); }
+    .h-2third-#{$letters} { height: calc((100% / 3) * 2); }
+    .vh-third-#{$letters} { height: calc(100vh / 3); }
+    .vh-2third-#{$letters} { height: calc((100vh / 3) * 2); }
+
+    .h-min-third-#{$letters} { min-height: calc(100% / 3); }
+    .h-min-2third-#{$letters} { min-height: calc((100% / 3) * 2); }
+    .vh-min-third-#{$letters} { min-height: calc(100vh / 3); }
+    .vh-min-2third-#{$letters} { min-height: calc((100vh / 3) * 2); }
+
+    .h-max-third-#{$letters} { max-height: calc(100% / 3); }
+    .h-max-2third-#{$letters} { max-height: calc((100% / 3) * 2); }
+    .vh-max-third-#{$letters} { max-height: calc(100vh / 3); }
+    .vh-max-2third-#{$letters} { max-height: calc((100vh / 3) * 2); }
   }
 }
 

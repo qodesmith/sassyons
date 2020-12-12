@@ -1,19 +1,37 @@
-.w-initial { width: initial; }
 .w-third { width: calc(100% / 3); }
-.w-2third {width: calc((100% / 3) * 2); }
+.w-2third { width: calc((100% / 3) * 2); }
 .vw-third { width: calc(100vw / 3); }
-.vw-2third {width: calc((100vw / 3) * 2); }
+.vw-2third { width: calc((100vw / 3) * 2); }
+
+.w-min-third { min-width: calc(100% / 3); }
+.w-min-2third { min-width: calc((100% / 3) * 2); }
+.vw-min-third { min-width: calc(100vw / 3); }
+.vw-min-2third { min-width: calc((100vw / 3) * 2); }
+
+.w-max-third { max-width: calc(100% / 3); }
+.w-max-2third { max-width: calc((100% / 3) * 2); }
+.vw-max-third { max-width: calc(100vw / 3); }
+.vw-max-2third { max-width: calc((100vw / 3) * 2); }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
   $letters: nth($breakpoint, 2);
 
   @media #{$bp} {
-    .w-initial-#{$letters} { width: initial; }
-    .w-third { width: calc(100% / 3); }
-    .w-2third {width: calc((100% / 3) * 2); }
-    .vw-third { width: calc(100vw / 3); }
-    .vw-2third {width: calc((100vw / 3) * 2); }
+    .w-third-#{$letters} { width: calc(100% / 3); }
+    .w-2third-#{$letters} { width: calc((100% / 3) * 2); }
+    .vw-third-#{$letters} { width: calc(100vw / 3); }
+    .vw-2third-#{$letters} { width: calc((100vw / 3) * 2); }
+
+    .w-min-third-#{$letters} { min-width: calc(100% / 3); }
+    .w-min-2third-#{$letters} { min-width: calc((100% / 3) * 2); }
+    .vw-min-third-#{$letters} { min-width: calc(100vw / 3); }
+    .vw-min-2third-#{$letters} { min-width: calc((100vw / 3) * 2); }
+
+    .w-max-third-#{$letters} { max-width: calc(100% / 3); }
+    .w-max-2third-#{$letters} { max-width: calc((100% / 3) * 2); }
+    .vw-max-third-#{$letters} { max-width: calc(100vw / 3); }
+    .vw-max-2third-#{$letters} { max-width: calc((100vw / 3) * 2); }
   }
 }
 
