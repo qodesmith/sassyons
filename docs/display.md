@@ -2,6 +2,8 @@
 
 | Class | Properties |
 | ----- | ---------- |
+| d-initial | display: initial |
+| d-inherit | display: inherit |
 | dn | display: none |
 | di | display: inline |
 | db | display: block |

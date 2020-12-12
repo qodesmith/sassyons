@@ -32,3 +32,14 @@
 | align-self-center     | align-self:      center |
 | align-self-baseline   | align-self:      baseline |
 | align-self-stretch    | align-self:      stretch |
+
+
+The following numbers can be used with the class names below:
+* 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+* Example: the `flex-grow-3` class name will produce `flex-grow: 3`
+
+| Class | Properties |
+| ----- | ---------- |
+| flex-order-&lang;num&rang; | flex-order: &lang;num&rang; |
+| flex-grow-&lang;num&rang; | flex-grow: &lang;num&rang; |
+| flex-shrink-&lang;num&rang; | flex-shrink: &lang;num&rang; |
