@@ -29,3 +29,4 @@ Sassyons includes a bunch of modules, each pertaining to a different part of CSS
 * [Shades](docs/shades.md) (varieties of black and white)
 * [Text](docs/text.md)
 * [Vertical Align](doc/vertical-align.md)
+* [White Space](doc/white-space.md)
