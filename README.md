@@ -26,3 +26,4 @@ Sassyons includes a bunch of modules, each pertaining to a different part of CSS
 * [Opacity](docs/opacity.md)
 * [Overflow](docs/overflow.md)
 * [Padding](docs/padding.md)
+* [Shades](docs/shades.md) (varieties of black and white)

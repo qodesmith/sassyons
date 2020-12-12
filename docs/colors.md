@@ -16,7 +16,6 @@ There are a few color-related utility classes:
 
 Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](https://htmlcolorcodes.com/color-names/)) as a class name:
 
-
 <table>
   <thead>
     <tr>
@@ -181,3 +180,5 @@ Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](http
     <tr><td>black</td><td>#00000</td><td style="background-color: #00000"></td></tr>
   </tbody>
 </table>
+
+See also [Shades](./shades.md)
