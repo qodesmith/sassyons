@@ -29,10 +29,24 @@
   }
 }
 
+$radiusCorners: (
+  (tl top-left-radius),
+  (tr top-right-radius),
+  (bl bottom-left-radius),
+  (br bottom-right-radius),
+);
+
 @for $num from 1 through length($pixelSizes) {
   $radius: nth($pixelSizes, $num);
 
   .radius#{$radius} { border-radius: #{$radius}px; }
+
+  @each $radiusCorner in $radiusCorners {
+    $dir: nth($radiusCorner, 1);
+    $postfix: nth($radiusCorner, 2);
+
+    .radius#{$radius}-#{$dir} { border-#{$postfix}: #{$radius}px; }
+  }
 }
 
 @each $breakpoint in $breakpoints {
@@ -44,6 +58,13 @@
 
     @media #{$bp} {
       .radius#{$radius}-#{$letters} { border-radius: #{$radius}px; }
+
+      @each $radiusCorner in $radiusCorners {
+        $dir: nth($radiusCorner, 1);
+        $postfix: nth($radiusCorner, 2);
+
+        .radius#{$radius}-#{$dir}-#{$letters} { border-#{$postfix}: #{$radius}px; }
+      }
     }
   }
 }
