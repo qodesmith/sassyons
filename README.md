@@ -31,3 +31,4 @@ Sassyons includes a bunch of modules, each pertaining to a different part of CSS
 * [Vertical Align](doc/vertical-align.md)
 * [White Space](doc/white-space.md)
 * [Widths](doc/widths.md)
+* [Z-Index](doc/z-index.md)
