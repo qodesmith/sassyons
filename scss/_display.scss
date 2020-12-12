@@ -25,6 +25,7 @@ $displays: (
 }
 
 .d-initial { display: initial; }
+.d-inherit { display: inherit; }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
@@ -32,5 +33,6 @@ $displays: (
 
   @media #{$bp} { // @media screen and (max-width: 767px) {
     .d-initial-#{$letters} { display: initial; }
+    .d-inherit-#{$letters} { display: inherit; }
   }
 }
