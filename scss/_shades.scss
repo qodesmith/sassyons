@@ -12,8 +12,10 @@
     $bp: nth($breakpoint, 1);
     $letters: nth($breakpoint, 2);
 
-    .black-#{$num}-#{$letters} { color: $color; }
-    .bg-black-#{$num}-#{$letters} { background-color: $color; }
+    @media #{$bp} {
+      .black-#{$num}-#{$letters} { color: $color; }
+      .bg-black-#{$num}-#{$letters} { background-color: $color; }
+    }
   }
 }
 
@@ -28,7 +30,9 @@
     $bp: nth($breakpoint, 1);
     $letters: nth($breakpoint, 2);
 
-    .white-#{$num}-#{$letters} { color: $color; }
-    .bg-white-#{$num}-#{$letters} { background-color: $color; }
+    @media #{$bp} {
+      .white-#{$num}-#{$letters} { color: $color; }
+      .bg-white-#{$num}-#{$letters} { background-color: $color; }
+    }
   }
 }
