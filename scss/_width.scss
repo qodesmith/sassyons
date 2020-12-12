@@ -1,5 +1,8 @@
 .w-initial { width: initial; }
 .w-third { width: calc(100% / 3); }
+.w-2third {width: calc((100% / 3) * 2); }
+.vw-third { width: calc(100vw / 3); }
+.vw-2third {width: calc((100vw / 3) * 2); }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
@@ -7,7 +10,10 @@
 
   @media #{$bp} {
     .w-initial-#{$letters} { width: initial; }
-    .w-third-#{$letters} { width: cal(100% / 3); }
+    .w-third { width: calc(100% / 3); }
+    .w-2third {width: calc((100% / 3) * 2); }
+    .vw-third { width: calc(100vw / 3); }
+    .vw-2third {width: calc((100vw / 3) * 2); }
   }
 }
 
