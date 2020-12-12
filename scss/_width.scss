@@ -1,19 +1,13 @@
-.w-33 { width: 33%; }
-.w-34 { width: 34%; }
-.vw-33 { width: 33vw; }
-.vw-34 { width: 34vw; }
 .w-initial { width: initial; }
+.w-third { width: calc(100% / 3); }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
   $letters: nth($breakpoint, 2);
 
   @media #{$bp} {
-    .w-33-#{$letters} { width: 33%; }
-    .w-34-#{$letters} { width: 34%; }
-    .vw-33-#{$letters} { width: 33vw; }
-    .vw-34-#{$letters} { width: 34vw; }
     .w-initial-#{$letters} { width: initial; }
+    .w-third-#{$letters} { width: cal(100% / 3); }
   }
 }
 
