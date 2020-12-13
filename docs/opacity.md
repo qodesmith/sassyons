@@ -7,4 +7,25 @@ You can achieve percent or vh height values for any multiple of 5 between 0 - 10
 
 | Class | Properties |
 | ----- | ---------- |
-| o-&lang;num&rang; | opacity: &lang;num / 100&rang;
+| o-&lang;num&rang; | opacity: &lang;num / 100&rang; |
+| o-0 | opacity: 0 |
+| o-5 | opacity: .05 |
+| o-10 | opacity: .1 |
+| o-15 | opacity: .15 |
+| o-20 | opacity: .2 |
+| o-25 | opacity: .25 |
+| o-30 | opacity: .3 |
+| o-35 | opacity: .35 |
+| o-40 | opacity: .4 |
+| o-45 | opacity: .45 |
+| o-50 | opacity: .5 |
+| o-55 | opacity: .55 |
+| o-60 | opacity: .6 |
+| o-65 | opacity: .65 |
+| o-70 | opacity: .7 |
+| o-75 | opacity: .75 |
+| o-80 | opacity: .8 |
+| o-85 | opacity: .85 |
+| o-90 | opacity: .9 |
+| o-95 | opacity: .95 |
+| o-100 | opacity: 1 |

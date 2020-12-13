@@ -23,3 +23,5 @@ You can achieve decimal values for font sizes within the following range:
 | f-&lang;num&rang;-&lang;num&rang;em | font-size: &lang;num&rang;em |
 | f-&lang;num&rang;-&lang;num&rang;rem | font-size: &lang;num&rang;rem |
 | f-&lang;num&rang;-&lang;num&rang;vmin | font-size: &lang;num&rang;vmin |
+
+See also [Text](./text.md) and [Font Styling](./font-styling.md)

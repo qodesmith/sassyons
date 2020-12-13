@@ -11,7 +11,9 @@
 .break-word { word-break: break-word; }
 .break-all { word-break: break-all; }
 .keep-all { word-break: keep-all; }
-.hyphens { hyphens: auto; }
+.hyphens-auto { hyphens: auto; }
+.hyphens-manual { hyphens: manual; }
+.hyphens-none { hyphens: none; }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);

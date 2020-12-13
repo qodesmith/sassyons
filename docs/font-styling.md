@@ -22,4 +22,4 @@ You can also achive font-weight numbers for the following numbers:
 | ----- | ---------- |
 | fw&lang;num&rang; | font-weight: &lang;num&rang; |
 
-See also [Text Styles](./text.md)
+See also [Text Styles](./text.md) and [Font Size](./font-size.md)
