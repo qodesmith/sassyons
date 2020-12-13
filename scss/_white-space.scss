@@ -1,0 +1,28 @@
+.ws-inherit { white-space: inherit; }
+.ws-initial { white-space: initial; }
+.ws-unset { white-space: unset; }
+
+.ws-normal { white-space: normal; }
+.ws-nowrap { white-space: nowrap; }
+.ws-pre { white-space: pre; }
+.ws-prewrap { white-space: pre-wrap; }
+.ws-preline { white-space: pre-line; }
+.ws-break { white-space: break-spaces; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .ws-inherit-#{$letters} { white-space: inherit; }
+    .ws-initial-#{$letters} { white-space: initial; }
+    .ws-unset-#{$letters} { white-space: unset; }
+
+    .ws-normal-#{$letters} { white-space: normal; }
+    .ws-nowrap-#{$letters} { white-space: nowrap; }
+    .ws-pre-#{$letters} { white-space: pre; }
+    .ws-prewrap-#{$letters} { white-space: pre-wrap; }
+    .ws-preline-#{$letters} { white-space: pre-line; }
+    .ws-break-#{$letters} { white-space: break-spaces; }
+  }
+}

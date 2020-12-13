@@ -10,7 +10,10 @@
 
 .break-word { word-break: break-word; }
 .break-all { word-break: break-all; }
-.hyphens { hyphens: auto; }
+.keep-all { word-break: keep-all; }
+.hyphens-auto { hyphens: auto; }
+.hyphens-manual { hyphens: manual; }
+.hyphens-none { hyphens: none; }
 
 @each $breakpoint in $breakpoints {
   $bp: nth($breakpoint, 1);
@@ -29,6 +32,7 @@
 
     .break-word-#{$letters} { word-break: break-word; }
     .break-all-#{$letters} { word-break: break-all; }
+    .keep-all-#{$letters} { word-break: keep-all; }
     .hyphens-#{$letters} { hyphens: auto; }
   }
 }

@@ -1,5 +1,6 @@
 # Files
 .DS_Store
+package-lock.json
 
 # Folders
 node_modules

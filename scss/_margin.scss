@@ -1,0 +1,42 @@
+.mha { margin-left: auto; margin-right: auto; }
+.mla { margin-left: auto; }
+.mra { margin-right: auto; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .mha-#{$letters} { margin-left: auto; margin-right: auto; }
+    .mla-#{$letters} { margin-left: auto; }
+    .mra-#{$letters} { margin-right: auto; }
+  }
+}
+
+@for $num from 1 through length($pixelSizes) {
+  $i: $num - 1;
+  $size: nth($pixelSizes, $num);
+
+  .ma#{$i} { margin: #{$size}px; }
+  .mt#{$i} { margin-top: #{$size}px; }
+  .mr#{$i} { margin-right: #{$size}px; }
+  .mb#{$i} { margin-bottom: #{$size}px; }
+  .ml#{$i} { margin-left: #{$size}px; }
+  .mh#{$i} { margin-left: #{$size}px; margin-right: #{$size}px; }
+  .mv#{$i} { margin-top: #{$size}px; margin-bottom: #{$size}px; }
+
+  @each $breakpoint in $breakpoints {
+    $bp: nth($breakpoint, 1);
+    $letters: nth($breakpoint, 2);
+
+    @media #{$bp} {
+      .ma#{$i}-#{$letters} { margin: #{$size}px; }
+      .mt#{$i}-#{$letters} { margin-top: #{$size}px; }
+      .mr#{$i}-#{$letters} { margin-right: #{$size}px; }
+      .mb#{$i}-#{$letters} { margin-bottom: #{$size}px; }
+      .ml#{$i}-#{$letters} { margin-left: #{$size}px; }
+      .mh#{$i}-#{$letters} { margin-left: #{$size}px; margin-right: #{$size}px; }
+      .mv#{$i}-#{$letters} { margin-top: #{$size}px; margin-bottom: #{$size}px; }
+    }
+  }
+}
