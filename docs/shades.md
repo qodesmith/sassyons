@@ -18,7 +18,7 @@ The below styles also apply for background colors. You would simply append the c
 | black-35 | #a6a6a6 | ![a6a6a6](https://placehold.it/20/a6a6a6?text=+)![a6a6a6](https://placehold.it/20/a6a6a6?text=+)![a6a6a6](https://placehold.it/20/a6a6a6?text=+) |
 | black-40 | #999 | ![999](https://placehold.it/20/999?text=+)![999](https://placehold.it/20/999?text=+)![999](https://placehold.it/20/999?text=+) |
 | black-45 | #8c8c8c | ![8c8c8c](https://placehold.it/20/8c8c8c?text=+)![8c8c8c](https://placehold.it/20/8c8c8c?text=+)![8c8c8c](https://placehold.it/20/8c8c8c?text=+) |
-| black-50 | grey | ![rey](https://placehold.it/20/rey?text=+)![rey](https://placehold.it/20/rey?text=+)![rey](https://placehold.it/20/rey?text=+) |
+| black-50 | #808080 | ![808080](https://placehold.it/20/808080?text=+)![808080](https://placehold.it/20/808080?text=+)![808080](https://placehold.it/20/808080?text=+) |
 | black-55 | #737373 | ![737373](https://placehold.it/20/737373?text=+)![737373](https://placehold.it/20/737373?text=+)![737373](https://placehold.it/20/737373?text=+) |
 | black-60 | #666 | ![666](https://placehold.it/20/666?text=+)![666](https://placehold.it/20/666?text=+)![666](https://placehold.it/20/666?text=+) |
 | black-65 | #595959 | ![595959](https://placehold.it/20/595959?text=+)![595959](https://placehold.it/20/595959?text=+)![595959](https://placehold.it/20/595959?text=+) |
