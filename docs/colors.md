@@ -18,6 +18,7 @@ Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](http
 
 | Class | Properties | Color Example |
 | ----- | ---------- | :-----------: |
+| | <br/>RED<br/>&nbsp; |
 | indianred | #cd5c5c | ![indianred](https://placehold.it/20/cd5c5c?text=+)![indianred](https://placehold.it/20/cd5c5c?text=+)![indianred](https://placehold.it/20/cd5c5c?text=+) |
 | lightcoral | #f08080 | ![lightcoral](https://placehold.it/20/f08080?text=+)![lightcoral](https://placehold.it/20/f08080?text=+)![lightcoral](https://placehold.it/20/f08080?text=+) |
 | salmon | #fa8072 | ![salmon](https://placehold.it/20/fa8072?text=+)![salmon](https://placehold.it/20/fa8072?text=+)![salmon](https://placehold.it/20/fa8072?text=+) |
@@ -27,18 +28,21 @@ Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](http
 | red | #ff0000 | ![red](https://placehold.it/20/ff0000?text=+)![red](https://placehold.it/20/ff0000?text=+)![red](https://placehold.it/20/ff0000?text=+) |
 | firebrick | #b22222 | ![firebrick](https://placehold.it/20/b22222?text=+)![firebrick](https://placehold.it/20/b22222?text=+)![firebrick](https://placehold.it/20/b22222?text=+) |
 | darkred | #8b0000 | ![darkred](https://placehold.it/20/8b0000?text=+)![darkred](https://placehold.it/20/8b0000?text=+)![darkred](https://placehold.it/20/8b0000?text=+) |
+| | <br/>PINK<br/>&nbsp; |
 | pink | #ffc0cb | ![pink](https://placehold.it/20/ffc0cb?text=+)![pink](https://placehold.it/20/ffc0cb?text=+)![pink](https://placehold.it/20/ffc0cb?text=+) |
 | lightpink | #ffb6c1 | ![lightpink](https://placehold.it/20/ffb6c1?text=+)![lightpink](https://placehold.it/20/ffb6c1?text=+)![lightpink](https://placehold.it/20/ffb6c1?text=+) |
 | hotpink | #ff69b4 | ![hotpink](https://placehold.it/20/ff69b4?text=+)![hotpink](https://placehold.it/20/ff69b4?text=+)![hotpink](https://placehold.it/20/ff69b4?text=+) |
 | deeppink | #ff1493 | ![deeppink](https://placehold.it/20/ff1493?text=+)![deeppink](https://placehold.it/20/ff1493?text=+)![deeppink](https://placehold.it/20/ff1493?text=+) |
 | mediumvioletred | #c71585 | ![mediumvioletred](https://placehold.it/20/c71585?text=+)![mediumvioletred](https://placehold.it/20/c71585?text=+)![mediumvioletred](https://placehold.it/20/c71585?text=+) |
 | palevioletred | #db7093 | ![palevioletred](https://placehold.it/20/db7093?text=+)![palevioletred](https://placehold.it/20/db7093?text=+)![palevioletred](https://placehold.it/20/db7093?text=+) |
+| | <br/>ORANGE<br/>&nbsp; |
 | lightsalmon | #ffa07a | ![lightsalmon](https://placehold.it/20/ffa07a?text=+)![lightsalmon](https://placehold.it/20/ffa07a?text=+)![lightsalmon](https://placehold.it/20/ffa07a?text=+) |
 | coral | #ff7f50 | ![coral](https://placehold.it/20/ff7f50?text=+)![coral](https://placehold.it/20/ff7f50?text=+)![coral](https://placehold.it/20/ff7f50?text=+) |
 | tomato | #ff6347 | ![tomato](https://placehold.it/20/ff6347?text=+)![tomato](https://placehold.it/20/ff6347?text=+)![tomato](https://placehold.it/20/ff6347?text=+) |
 | orangered | #ff4500 | ![orangered](https://placehold.it/20/ff4500?text=+)![orangered](https://placehold.it/20/ff4500?text=+)![orangered](https://placehold.it/20/ff4500?text=+) |
 | darkorange | #ff8c00 | ![darkorange](https://placehold.it/20/ff8c00?text=+)![darkorange](https://placehold.it/20/ff8c00?text=+)![darkorange](https://placehold.it/20/ff8c00?text=+) |
 | orange | #ffa500 | ![orange](https://placehold.it/20/ffa500?text=+)![orange](https://placehold.it/20/ffa500?text=+)![orange](https://placehold.it/20/ffa500?text=+) |
+| | <br/>YELLOW<br/>&nbsp; |
 | gold | #ffd700 | ![gold](https://placehold.it/20/ffd700?text=+)![gold](https://placehold.it/20/ffd700?text=+)![gold](https://placehold.it/20/ffd700?text=+) |
 | yellow | #ffff00 | ![yellow](https://placehold.it/20/ffff00?text=+)![yellow](https://placehold.it/20/ffff00?text=+)![yellow](https://placehold.it/20/ffff00?text=+) |
 | lightyellow | #ffffe0 | ![lightyellow](https://placehold.it/20/ffffe0?text=+)![lightyellow](https://placehold.it/20/ffffe0?text=+)![lightyellow](https://placehold.it/20/ffffe0?text=+) |
@@ -50,6 +54,7 @@ Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](http
 | palegoldenrod | #eee8aa | ![palegoldenrod](https://placehold.it/20/eee8aa?text=+)![palegoldenrod](https://placehold.it/20/eee8aa?text=+)![palegoldenrod](https://placehold.it/20/eee8aa?text=+) |
 | khaki | #f0e68c | ![khaki](https://placehold.it/20/f0e68c?text=+)![khaki](https://placehold.it/20/f0e68c?text=+)![khaki](https://placehold.it/20/f0e68c?text=+) |
 | darkkhaki | #bdb76b | ![darkkhaki](https://placehold.it/20/bdb76b?text=+)![darkkhaki](https://placehold.it/20/bdb76b?text=+)![darkkhaki](https://placehold.it/20/bdb76b?text=+) |
+| | <br/>PURPLE<br/>&nbsp; |
 | lavender | #e6e6fa | ![lavender](https://placehold.it/20/e6e6fa?text=+)![lavender](https://placehold.it/20/e6e6fa?text=+)![lavender](https://placehold.it/20/e6e6fa?text=+) |
 | thistle | #d8bfd8 | ![thistle](https://placehold.it/20/d8bfd8?text=+)![thistle](https://placehold.it/20/d8bfd8?text=+)![thistle](https://placehold.it/20/d8bfd8?text=+) |
 | plum | #dda0dd | ![plum](https://placehold.it/20/dda0dd?text=+)![plum](https://placehold.it/20/dda0dd?text=+)![plum](https://placehold.it/20/dda0dd?text=+) |
@@ -69,6 +74,7 @@ Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](http
 | slateblue | #6a5acd | ![slateblue](https://placehold.it/20/6a5acd?text=+)![slateblue](https://placehold.it/20/6a5acd?text=+)![slateblue](https://placehold.it/20/6a5acd?text=+) |
 | darkslateblue | #483d8b | ![darkslateblue](https://placehold.it/20/483d8b?text=+)![darkslateblue](https://placehold.it/20/483d8b?text=+)![darkslateblue](https://placehold.it/20/483d8b?text=+) |
 | mediumslateblue | #7b68ee | ![mediumslateblue](https://placehold.it/20/7b68ee?text=+)![mediumslateblue](https://placehold.it/20/7b68ee?text=+)![mediumslateblue](https://placehold.it/20/7b68ee?text=+) |
+| | <br/>GREEN<br/>&nbsp; |
 | greenyellow | #adff2f | ![greenyellow](https://placehold.it/20/adff2f?text=+)![greenyellow](https://placehold.it/20/adff2f?text=+)![greenyellow](https://placehold.it/20/adff2f?text=+) |
 | chartreuse | #7fff00 | ![chartreuse](https://placehold.it/20/7fff00?text=+)![chartreuse](https://placehold.it/20/7fff00?text=+)![chartreuse](https://placehold.it/20/7fff00?text=+) |
 | lawngreen | #7cfc00 | ![lawngreen](https://placehold.it/20/7cfc00?text=+)![lawngreen](https://placehold.it/20/7cfc00?text=+)![lawngreen](https://placehold.it/20/7cfc00?text=+) |
@@ -92,6 +98,7 @@ Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](http
 | lightseagreen | #20b2aa | ![lightseagreen](https://placehold.it/20/20b2aa?text=+)![lightseagreen](https://placehold.it/20/20b2aa?text=+)![lightseagreen](https://placehold.it/20/20b2aa?text=+) |
 | darkcyan | #008b8b | ![darkcyan](https://placehold.it/20/008b8b?text=+)![darkcyan](https://placehold.it/20/008b8b?text=+)![darkcyan](https://placehold.it/20/008b8b?text=+) |
 | teal | #008080 | ![teal](https://placehold.it/20/008080?text=+)![teal](https://placehold.it/20/008080?text=+)![teal](https://placehold.it/20/008080?text=+) |
+| | <br/>BLUE<br/>&nbsp; |
 | aqua | #00ffff | ![aqua](https://placehold.it/20/00ffff?text=+)![aqua](https://placehold.it/20/00ffff?text=+)![aqua](https://placehold.it/20/00ffff?text=+) |
 | cyan | #00ffff | ![cyan](https://placehold.it/20/00ffff?text=+)![cyan](https://placehold.it/20/00ffff?text=+)![cyan](https://placehold.it/20/00ffff?text=+) |
 | lightcyan | #e0ffff | ![lightcyan](https://placehold.it/20/e0ffff?text=+)![lightcyan](https://placehold.it/20/e0ffff?text=+)![lightcyan](https://placehold.it/20/e0ffff?text=+) |
@@ -117,6 +124,7 @@ Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](http
 | darkblue | #00008b | ![darkblue](https://placehold.it/20/00008b?text=+)![darkblue](https://placehold.it/20/00008b?text=+)![darkblue](https://placehold.it/20/00008b?text=+) |
 | navy | #000080 | ![navy](https://placehold.it/20/000080?text=+)![navy](https://placehold.it/20/000080?text=+)![navy](https://placehold.it/20/000080?text=+) |
 | midnightblue | #191970 | ![midnightblue](https://placehold.it/20/191970?text=+)![midnightblue](https://placehold.it/20/191970?text=+)![midnightblue](https://placehold.it/20/191970?text=+) |
+| | <br/>BROWN<br/>&nbsp; |
 | cornsilk | #fff8dc | ![cornsilk](https://placehold.it/20/fff8dc?text=+)![cornsilk](https://placehold.it/20/fff8dc?text=+)![cornsilk](https://placehold.it/20/fff8dc?text=+) |
 | blanchedalmond | #ffebcd | ![blanchedalmond](https://placehold.it/20/ffebcd?text=+)![blanchedalmond](https://placehold.it/20/ffebcd?text=+)![blanchedalmond](https://placehold.it/20/ffebcd?text=+) |
 | bisque | #ffe4c4 | ![bisque](https://placehold.it/20/ffe4c4?text=+)![bisque](https://placehold.it/20/ffe4c4?text=+)![bisque](https://placehold.it/20/ffe4c4?text=+) |
@@ -134,6 +142,7 @@ Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](http
 | sienna | #a0522d | ![sienna](https://placehold.it/20/a0522d?text=+)![sienna](https://placehold.it/20/a0522d?text=+)![sienna](https://placehold.it/20/a0522d?text=+) |
 | brown | #a52a2a | ![brown](https://placehold.it/20/a52a2a?text=+)![brown](https://placehold.it/20/a52a2a?text=+)![brown](https://placehold.it/20/a52a2a?text=+) |
 | maroon | #800000 | ![maroon](https://placehold.it/20/800000?text=+)![maroon](https://placehold.it/20/800000?text=+)![maroon](https://placehold.it/20/800000?text=+) |
+| | <br/>WHITE<br/>&nbsp; |
 | white | #ffffff | ![white](https://placehold.it/20/ffffff?text=+)![white](https://placehold.it/20/ffffff?text=+)![white](https://placehold.it/20/ffffff?text=+) |
 | snow | #fffafa | ![snow](https://placehold.it/20/fffafa?text=+)![snow](https://placehold.it/20/fffafa?text=+)![snow](https://placehold.it/20/fffafa?text=+) |
 | honeydew | #f0fff0 | ![honeydew](https://placehold.it/20/f0fff0?text=+)![honeydew](https://placehold.it/20/f0fff0?text=+)![honeydew](https://placehold.it/20/f0fff0?text=+) |
@@ -151,6 +160,7 @@ Sassyons also provides every named CSS color (sourced from [htmlcolorcodes](http
 | linen | #faf0e6 | ![linen](https://placehold.it/20/faf0e6?text=+)![linen](https://placehold.it/20/faf0e6?text=+)![linen](https://placehold.it/20/faf0e6?text=+) |
 | lavenderblush | #fff0f5 | ![lavenderblush](https://placehold.it/20/fff0f5?text=+)![lavenderblush](https://placehold.it/20/fff0f5?text=+)![lavenderblush](https://placehold.it/20/fff0f5?text=+) |
 | mistyrose | #ffe4e1 | ![mistyrose](https://placehold.it/20/ffe4e1?text=+)![mistyrose](https://placehold.it/20/ffe4e1?text=+)![mistyrose](https://placehold.it/20/ffe4e1?text=+) |
+| | <br/>GRAY<br/>&nbsp; |
 | gainsboro | #dcdcdc | ![gainsboro](https://placehold.it/20/dcdcdc?text=+)![gainsboro](https://placehold.it/20/dcdcdc?text=+)![gainsboro](https://placehold.it/20/dcdcdc?text=+) |
 | lightgray | #d3d3d3 | ![lightgray](https://placehold.it/20/d3d3d3?text=+)![lightgray](https://placehold.it/20/d3d3d3?text=+)![lightgray](https://placehold.it/20/d3d3d3?text=+) |
 | silver | #c0c0c0 | ![silver](https://placehold.it/20/c0c0c0?text=+)![silver](https://placehold.it/20/c0c0c0?text=+)![silver](https://placehold.it/20/c0c0c0?text=+) |
