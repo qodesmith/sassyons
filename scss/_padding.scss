@@ -1,27 +1,24 @@
-@for $num from 1 through length($pixelSizes) {
-  $i: $num - 1;
-  $size: nth($pixelSizes, $num);
-
-  .pa#{$i} { padding: #{$size}px; }
-  .pt#{$i} { padding-top: #{$size}px; }
-  .pr#{$i} { padding-right: #{$size}px; }
-  .pb#{$i} { padding-bottom: #{$size}px; }
-  .pl#{$i} { padding-left: #{$size}px; }
-  .ph#{$i} { padding-left: #{$size}px; padding-right: #{$size}px; }
-  .pv#{$i} { padding-top: #{$size}px; padding-bottom: #{$size}px; }
+@each $size in $pixelSizes {
+  .pa#{$size} { padding: #{$size}px; }
+  .pt#{$size} { padding-top: #{$size}px; }
+  .pr#{$size} { padding-right: #{$size}px; }
+  .pb#{$size} { padding-bottom: #{$size}px; }
+  .pl#{$size} { padding-left: #{$size}px; }
+  .ph#{$size} { padding-left: #{$size}px; padding-right: #{$size}px; }
+  .pv#{$size} { padding-top: #{$size}px; padding-bottom: #{$size}px; }
 
   @each $breakpoint in $breakpoints {
     $bp: nth($breakpoint, 1);
     $letters: nth($breakpoint, 2);
 
     @media #{$bp} {
-      .pa#{$i}-#{$letters} { padding: #{$size}px; }
-      .pt#{$i}-#{$letters} { padding-top: #{$size}px; }
-      .pr#{$i}-#{$letters} { padding-right: #{$size}px; }
-      .pb#{$i}-#{$letters} { padding-bottom: #{$size}px; }
-      .pl#{$i}-#{$letters} { padding-left: #{$size}px; }
-      .ph#{$i}-#{$letters} { padding-left: #{$size}px; padding-right: #{$size}px; }
-      .pv#{$i}-#{$letters} { padding-top: #{$size}px; padding-bottom: #{$size}px; }
+      .pa#{$size}-#{$letters} { padding: #{$size}px; }
+      .pt#{$size}-#{$letters} { padding-top: #{$size}px; }
+      .pr#{$size}-#{$letters} { padding-right: #{$size}px; }
+      .pb#{$size}-#{$letters} { padding-bottom: #{$size}px; }
+      .pl#{$size}-#{$letters} { padding-left: #{$size}px; }
+      .ph#{$size}-#{$letters} { padding-left: #{$size}px; padding-right: #{$size}px; }
+      .pv#{$size}-#{$letters} { padding-top: #{$size}px; padding-bottom: #{$size}px; }
     }
   }
 }

@@ -36,9 +36,7 @@ $radiusCorners: (
   br bottom-right-radius,
 );
 
-@for $num from 1 through length($pixelSizes) {
-  $radius: nth($pixelSizes, $num);
-
+@each $radius in $pixelSizes {
   .radius#{$radius} { border-radius: #{$radius}px; }
 
   @each $radiusCorner in $radiusCorners {
@@ -53,9 +51,7 @@ $radiusCorners: (
   $bp: nth($breakpoint, 1);
   $letters: nth($breakpoint, 2);
 
-  @for $num from 1 through length($pixelSizes) {
-    $radius: nth($pixelSizes, $num);
-
+  @each $radius in $pixelSizes {
     @media #{$bp} {
       .radius#{$radius}-#{$letters} { border-radius: #{$radius}px; }
 

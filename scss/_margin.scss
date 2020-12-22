@@ -13,30 +13,27 @@
   }
 }
 
-@for $num from 1 through length($pixelSizes) {
-  $i: $num - 1;
-  $size: nth($pixelSizes, $num);
-
-  .ma#{$i} { margin: #{$size}px; }
-  .mt#{$i} { margin-top: #{$size}px; }
-  .mr#{$i} { margin-right: #{$size}px; }
-  .mb#{$i} { margin-bottom: #{$size}px; }
-  .ml#{$i} { margin-left: #{$size}px; }
-  .mh#{$i} { margin-left: #{$size}px; margin-right: #{$size}px; }
-  .mv#{$i} { margin-top: #{$size}px; margin-bottom: #{$size}px; }
+@each $size in $pixelSizes {
+  .ma#{$size} { margin: #{$size}px; }
+  .mt#{$size} { margin-top: #{$size}px; }
+  .mr#{$size} { margin-right: #{$size}px; }
+  .mb#{$size} { margin-bottom: #{$size}px; }
+  .ml#{$size} { margin-left: #{$size}px; }
+  .mh#{$size} { margin-left: #{$size}px; margin-right: #{$size}px; }
+  .mv#{$size} { margin-top: #{$size}px; margin-bottom: #{$size}px; }
 
   @each $breakpoint in $breakpoints {
     $bp: nth($breakpoint, 1);
     $letters: nth($breakpoint, 2);
 
     @media #{$bp} {
-      .ma#{$i}-#{$letters} { margin: #{$size}px; }
-      .mt#{$i}-#{$letters} { margin-top: #{$size}px; }
-      .mr#{$i}-#{$letters} { margin-right: #{$size}px; }
-      .mb#{$i}-#{$letters} { margin-bottom: #{$size}px; }
-      .ml#{$i}-#{$letters} { margin-left: #{$size}px; }
-      .mh#{$i}-#{$letters} { margin-left: #{$size}px; margin-right: #{$size}px; }
-      .mv#{$i}-#{$letters} { margin-top: #{$size}px; margin-bottom: #{$size}px; }
+      .ma#{$size}-#{$letters} { margin: #{$size}px; }
+      .mt#{$size}-#{$letters} { margin-top: #{$size}px; }
+      .mr#{$size}-#{$letters} { margin-right: #{$size}px; }
+      .mb#{$size}-#{$letters} { margin-bottom: #{$size}px; }
+      .ml#{$size}-#{$letters} { margin-left: #{$size}px; }
+      .mh#{$size}-#{$letters} { margin-left: #{$size}px; margin-right: #{$size}px; }
+      .mv#{$size}-#{$letters} { margin-top: #{$size}px; margin-bottom: #{$size}px; }
     }
   }
 }
