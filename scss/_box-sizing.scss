@@ -1,0 +1,16 @@
+.border-box { box-sizing: border-box; }
+.content-box { box-sizing: content-box; }
+.box-initial { box-sizing: initial; }
+.box-inherit { box-sizing: inherit; }
+
+@each $breakpoint in $breakpoints {
+  $bp: nth($breakpoint, 1);
+  $letters: nth($breakpoint, 2);
+
+  @media #{$bp} {
+    .border-box-#{$letters} { box-sizing: border-box; }
+    .content-box-#{$letters} { box-sizing: content-box; }
+    .box-initial-#{$letters} { box-sizing: initial; }
+    .box-inherit-#{$letters} { box-sizing: inherit; }
+  }
+}

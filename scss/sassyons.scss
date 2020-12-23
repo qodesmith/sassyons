@@ -1,19 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 // This needs to be first.
 // If importing individual scss files into a project,
 // you should import this variables file first as well.
 @import './variables';
 
 @import './border';
+@import './box-sizing';
 @import './colors';
 @import './directions';
 @import './display';
