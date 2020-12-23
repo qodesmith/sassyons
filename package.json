@@ -1,6 +1,6 @@
 {
   "name": "sassyons",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "description": "Inspired by Tachyons",
   "main": "./dist/sassyons.min.css",
   "style": "./scss/sassyons.scss",
